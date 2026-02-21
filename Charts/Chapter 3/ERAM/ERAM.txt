@@ -1,0 +1,5 @@
+difficulty: Easy
+description: I can see in the dark, you know! The question is... Can you?
+Composer: Toby Fox
+volume: 0
+order: 337

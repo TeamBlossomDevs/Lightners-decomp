@@ -1,0 +1,2401 @@
+[gd_scene load_steps=237 format=3 uid="uid://dws20ymi40aiq"]
+
+[ext_resource type="Script" uid="uid://d14kn2bi6aj7e" path="res://menu.gd" id="1_5p1lm"]
+[ext_resource type="Texture2D" uid="uid://s8l4wmlsh6tn" path="res://Sprites/Cafe/Room/Cafe.png" id="2_xi823"]
+[ext_resource type="Texture2D" uid="uid://bwiijmr51mhly" path="res://Sprites/Lightners Live Plus Logo.png" id="3_6agnd"]
+[ext_resource type="Texture2D" uid="uid://do3hj7ydl8au7" path="res://Sprites/Jukebox.png" id="3_dolsu"]
+[ext_resource type="Texture2D" uid="uid://dogcvly708jag" path="res://Sprites/Cafe/Room/cafe light beam/spr_dw_castle_cafe_light_beam_0.png" id="3_ne67i"]
+[ext_resource type="Texture2D" uid="uid://cws4xtgahqbsw" path="res://Sprites/Cafe/Room/cafe light beam/spr_dw_castle_cafe_light_beam_1.png" id="4_1i24p"]
+[ext_resource type="Texture2D" uid="uid://ccosjubvt8lb7" path="res://Sprites/Fun Gang Walk/Kris/Kris Down/spr_krisd_dark_0.png" id="4_hcwhg"]
+[ext_resource type="Texture2D" uid="uid://bdthrc2dhqrj5" path="res://Sprites/Lightners Live Plus Logo Glow.png" id="4_i0fb5"]
+[ext_resource type="Texture2D" uid="uid://deqgba4bk6aqn" path="res://Sprites/Jukebox Glow.png" id="5_3w0sw"]
+[ext_resource type="Texture2D" uid="uid://jvormiwlayi" path="res://Sprites/Fun Gang Walk/Kris/Kris Down/spr_krisd_dark_1.png" id="5_5p1lm"]
+[ext_resource type="Texture2D" uid="uid://itayt831hi2e" path="res://Sprites/Cafe/Room/cafe light beam/spr_dw_castle_cafe_light_beam_2.png" id="5_ifa43"]
+[ext_resource type="Texture2D" uid="uid://cwwhewnxfjhbu" path="res://Sprites/Fun Gang Walk/Kris/Kris Down/spr_krisd_dark_2.png" id="6_1igrg"]
+[ext_resource type="Texture2D" uid="uid://d13vqx3ys8mka" path="res://Sprites/Cafe/Room/cafe light beam/spr_dw_castle_cafe_light_beam_3.png" id="6_37dvb"]
+[ext_resource type="Texture2D" uid="uid://bjwyac6l8vx1c" path="res://Sprites/Cafe/Room/cafe light/spr_dw_castle_cafe_light_0.png" id="7_7111u"]
+[ext_resource type="Texture2D" uid="uid://2wj8d7wkluci" path="res://Sprites/Fun Gang Walk/Kris/Kris Down/spr_krisd_dark_3.png" id="7_v0s1l"]
+[ext_resource type="Texture2D" uid="uid://c3yxcuqw73qmb" path="res://Sprites/Cafe/Room/cafe light/spr_dw_castle_cafe_light_1.png" id="8_m7fre"]
+[ext_resource type="Texture2D" uid="uid://llh4taoqa2fj" path="res://Sprites/Fun Gang Walk/Kris/Kris Left/spr_krisl_dark_0.png" id="9_0duj0"]
+[ext_resource type="Texture2D" uid="uid://mfhgh351gjie" path="res://Sprites/Cafe/Room/cafe light/spr_dw_castle_cafe_light_2.png" id="9_wxb8t"]
+[ext_resource type="Texture2D" uid="uid://el12aoblag2i" path="res://Sprites/Cafe/Room/cafe light/spr_dw_castle_cafe_light_3.png" id="10_3wd6u"]
+[ext_resource type="Texture2D" uid="uid://b0kvfe4nxaat7" path="res://Sprites/Fun Gang Walk/Kris/Kris Left/spr_krisl_dark_1.png" id="10_75jwl"]
+[ext_resource type="Texture2D" uid="uid://bep2ykyas380l" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_0.png" id="10_djp5r"]
+[ext_resource type="Texture2D" uid="uid://o2fmmqao48xu" path="res://Sprites/Fun Gang Walk/Kris/Kris Left/spr_krisl_dark_2.png" id="11_5opjp"]
+[ext_resource type="Texture2D" uid="uid://diippl1pdjdnq" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_1.png" id="11_qv43w"]
+[ext_resource type="Texture2D" uid="uid://hdc6wl2s5r2" path="res://Sprites/Fun Gang Walk/Kris/Kris Left/spr_krisl_dark_3.png" id="12_i28r4"]
+[ext_resource type="Texture2D" uid="uid://1xjleqm165cp" path="res://Sprites/Fun Gang Walk/Susie/Susie Down/spr_susie_walk_down_dw_3.png" id="12_kma2q"]
+[ext_resource type="Texture2D" uid="uid://cd5kaek87bhtr" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_2.png" id="12_lg6tk"]
+[ext_resource type="Texture2D" uid="uid://sviyw4pd0w8f" path="res://Sprites/Fun Gang Walk/Susie/Susie Down/spr_susie_walk_down_dw_0.png" id="13_ef6dv"]
+[ext_resource type="Texture2D" uid="uid://1pqucqj2sr3g" path="res://Sprites/Fun Gang Walk/Kris/Kris Right/spr_krisr_dark_0.png" id="13_ofows"]
+[ext_resource type="Texture2D" uid="uid://8hw7xch7iyi4" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_3.png" id="13_rxbyy"]
+[ext_resource type="Texture2D" uid="uid://cfhdfaa4avyhg" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_4.png" id="14_bdcva"]
+[ext_resource type="Texture2D" uid="uid://dm84sgdpqo8w0" path="res://Sprites/Fun Gang Walk/Susie/Susie Down/spr_susie_walk_down_dw_1.png" id="14_obhax"]
+[ext_resource type="Texture2D" uid="uid://rle8pxax0wee" path="res://Sprites/Fun Gang Walk/Kris/Kris Right/spr_krisr_dark_1.png" id="14_tdulj"]
+[ext_resource type="Texture2D" uid="uid://ctihdhmw1j2il" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_5.png" id="15_40ikm"]
+[ext_resource type="Texture2D" uid="uid://c4845s41mekyw" path="res://Sprites/Fun Gang Walk/Kris/Kris Right/spr_krisr_dark_2.png" id="15_56jqo"]
+[ext_resource type="Texture2D" uid="uid://l27rgo25rt35" path="res://Sprites/Fun Gang Walk/Susie/Susie Down/spr_susie_walk_down_dw_2.png" id="15_wes0k"]
+[ext_resource type="Texture2D" uid="uid://by81hy0snftfg" path="res://Sprites/Fun Gang Walk/Susie/Susie Left/spr_susie_walk_left_dw_3.png" id="16_3syja"]
+[ext_resource type="Texture2D" uid="uid://j43b1622duo7" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_6.png" id="16_6dwpy"]
+[ext_resource type="Texture2D" uid="uid://cugrgxscbtcoy" path="res://Sprites/Fun Gang Walk/Kris/Kris Right/spr_krisr_dark_3.png" id="16_7d3m5"]
+[ext_resource type="Texture2D" uid="uid://27b7kdqa8lnu" path="res://Sprites/Fun Gang Walk/Kris/Kris Up/spr_krisu_dark_0.png" id="17_2cl4t"]
+[ext_resource type="Texture2D" uid="uid://c3i66fafesnhh" path="res://Sprites/Fun Gang Walk/Susie/Susie Left/spr_susie_walk_left_dw_0.png" id="17_ta4tt"]
+[ext_resource type="Texture2D" uid="uid://sa4r3mu3x74" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_7.png" id="17_yato2"]
+[ext_resource type="Texture2D" uid="uid://c86ncgl7ux3ne" path="res://Sprites/Fun Gang Walk/Kris/Kris Up/spr_krisu_dark_1.png" id="18_cddsj"]
+[ext_resource type="Texture2D" uid="uid://csxoe1ehk1n7n" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_8.png" id="18_qu0ho"]
+[ext_resource type="Texture2D" uid="uid://cxn1nb7x1hvp1" path="res://Sprites/Fun Gang Walk/Susie/Susie Left/spr_susie_walk_left_dw_1.png" id="18_s0g7d"]
+[ext_resource type="Texture2D" uid="uid://cckbjrnrtjpjj" path="res://Sprites/Fun Gang Walk/Kris/Kris Up/spr_krisu_dark_2.png" id="19_1higw"]
+[ext_resource type="Texture2D" uid="uid://ow8klud8r6tr" path="res://Sprites/Fun Gang Walk/Susie/Susie Left/spr_susie_walk_left_dw_2.png" id="19_lyyg7"]
+[ext_resource type="Texture2D" uid="uid://d18em6oyvdn83" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_9.png" id="19_w3u25"]
+[ext_resource type="Texture2D" uid="uid://dbfoal8dkkj42" path="res://Sprites/Fun Gang Walk/Kris/Kris Up/spr_krisu_dark_3.png" id="20_at5gw"]
+[ext_resource type="Texture2D" uid="uid://hs46qvpl88qq" path="res://Sprites/Fun Gang Walk/Susie/Susie Right/spr_susie_walk_right_dw_3.png" id="20_h8ayi"]
+[ext_resource type="Texture2D" uid="uid://cex47f4drctua" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_10.png" id="20_iquux"]
+[ext_resource type="Texture2D" uid="uid://bvnh0eps7payn" path="res://Sprites/Cafe Performers/Tasque Manager.png" id="21_75jwl"]
+[ext_resource type="Texture2D" uid="uid://bx17galkh4fui" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_11.png" id="21_dx0s7"]
+[ext_resource type="Texture2D" uid="uid://coqless3kbnhi" path="res://Sprites/Fun Gang Walk/Susie/Susie Right/spr_susie_walk_right_dw_0.png" id="21_ex3ui"]
+[ext_resource type="Texture2D" uid="uid://b3d30fbafu7r6" path="res://Sprites/Cafe Performers/K_K.png" id="22_5opjp"]
+[ext_resource type="Texture2D" uid="uid://c4jbpagv76l2r" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_12.png" id="22_facvd"]
+[ext_resource type="Texture2D" uid="uid://b6w1srffoa61d" path="res://Sprites/Fun Gang Walk/Susie/Susie Right/spr_susie_walk_right_dw_1.png" id="22_oir2u"]
+[ext_resource type="Texture2D" uid="uid://bkrbw2vwcikqt" path="res://Sprites/Cafe Performers/Sweet.png" id="23_i28r4"]
+[ext_resource type="Texture2D" uid="uid://ct6kl2omcsoue" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_13.png" id="23_jnuo4"]
+[ext_resource type="Texture2D" uid="uid://eqgnooo4h7y7" path="res://Sprites/Fun Gang Walk/Susie/Susie Right/spr_susie_walk_right_dw_2.png" id="23_lgua3"]
+[ext_resource type="Texture2D" uid="uid://b6vu5f7kacaee" path="res://Sprites/Fun Gang Walk/Susie/Susie Up/spr_susie_walk_up_dw_3.png" id="24_bg2g6"]
+[ext_resource type="Texture2D" uid="uid://btucv8b0ymlum" path="res://Sprites/Cafe Performers/Shadowguy.png" id="24_ofows"]
+[ext_resource type="Texture2D" uid="uid://bmqaiydbvdnx1" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_14.png" id="24_xi823"]
+[ext_resource type="Texture2D" uid="uid://d6cgmjr1r4r2" path="res://Sprites/Fun Gang Walk/Susie/Susie Up/spr_susie_walk_up_dw_0.png" id="25_i0md5"]
+[ext_resource type="Texture2D" uid="uid://pu0s0b02f76h" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_15.png" id="25_ne67i"]
+[ext_resource type="Texture2D" uid="uid://x655cg3nie5b" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_16.png" id="26_1i24p"]
+[ext_resource type="Texture2D" uid="uid://dlmro2lq4mca8" path="res://Sprites/Black.png" id="26_tdulj"]
+[ext_resource type="Texture2D" uid="uid://bqc1ik4m7ukak" path="res://Sprites/Fun Gang Walk/Susie/Susie Up/spr_susie_walk_up_dw_1.png" id="26_w4urg"]
+[ext_resource type="Texture2D" uid="uid://vq77xoek4o8g" path="res://Sprites/PC.png" id="27_0yka1"]
+[ext_resource type="FontFile" uid="uid://dvl318xc6jvon" path="res://Fonts/8bitoperator_jve.ttf" id="27_56jqo"]
+[ext_resource type="Texture2D" uid="uid://b3oab1fvktpy7" path="res://Sprites/Fun Gang Walk/Susie/Susie Up/spr_susie_walk_up_dw_2.png" id="27_em6xj"]
+[ext_resource type="Texture2D" uid="uid://dlahirsp31wwp" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_17.png" id="27_ifa43"]
+[ext_resource type="Texture2D" uid="uid://bbv4enw4q1ex4" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Down/spr_ralsei_walk_down_3.png" id="28_4a00t"]
+[ext_resource type="FontFile" uid="uid://b43tn4m34unou" path="res://Fonts/Tiny5-Regular.ttf" id="28_7d3m5"]
+[ext_resource type="Texture2D" uid="uid://dbjjxm27devpp" path="res://Sprites/Swatchling.png" id="28_8gb11"]
+[ext_resource type="Texture2D" uid="uid://ce4mq5u813ivs" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_18.png" id="28_37dvb"]
+[ext_resource type="Texture2D" uid="uid://1q3jyf1khhc1" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Down/spr_ralsei_walk_down_0.png" id="29_6agnd"]
+[ext_resource type="Texture2D" uid="uid://6cbvm3qvx57n" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_19.png" id="29_7111u"]
+[ext_resource type="Texture2D" uid="uid://b5rxurwjka6w4" path="res://Sprites/ButtonPromps/Keyboard/Select.png" id="30_cddsj"]
+[ext_resource type="Texture2D" uid="uid://3x2j5hfjmst1" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Down/spr_ralsei_walk_down_1.png" id="30_i0fb5"]
+[ext_resource type="Texture2D" uid="uid://db4bnm2ut8d10" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_20.png" id="30_m7fre"]
+[ext_resource type="Texture2D" uid="uid://dph0fxjugtr40" path="res://Sprites/ButtonPromps/Keyboard/Cancel.png" id="31_1higw"]
+[ext_resource type="Texture2D" uid="uid://df3juymkqf5ji" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Down/spr_ralsei_walk_down_2.png" id="31_767mb"]
+[ext_resource type="Texture2D" uid="uid://4pfkhsg0u2c5" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_21.png" id="31_wxb8t"]
+[ext_resource type="Texture2D" uid="uid://c3fq6grjq3fxg" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_22.png" id="32_3wd6u"]
+[ext_resource type="Texture2D" uid="uid://cpgxmkc5342yb" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Left/spr_ralsei_walk_left_3.png" id="32_557pi"]
+[ext_resource type="Texture2D" uid="uid://con8aqrgu0nrc" path="res://Sprites/ButtonPromps/Keyboard/Menu.png" id="32_at5gw"]
+[ext_resource type="Texture2D" uid="uid://rn4uwpbiw308" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_23.png" id="33_5d822"]
+[ext_resource type="Texture2D" uid="uid://bykj05r7bmft6" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Left/spr_ralsei_walk_left_0.png" id="33_75wuu"]
+[ext_resource type="Texture2D" uid="uid://s7slc3berhl5" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_24.png" id="34_8gxdm"]
+[ext_resource type="Texture2D" uid="uid://bxbgvr22yq2pt" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Left/spr_ralsei_walk_left_1.png" id="34_xixtd"]
+[ext_resource type="Texture2D" uid="uid://cw0vu0v7ijr2r" path="res://Sprites/ButtonPromps/Xbox/Select.png" id="34_y0qex"]
+[ext_resource type="Texture2D" uid="uid://detlpv38uxnlr" path="res://Sprites/ButtonPromps/PS/Select.png" id="35_0yka1"]
+[ext_resource type="Texture2D" uid="uid://d3kihgksmxk0s" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Left/spr_ralsei_walk_left_2.png" id="35_i7axr"]
+[ext_resource type="Texture2D" uid="uid://s3av2llqy67h" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_25.png" id="35_obw3l"]
+[ext_resource type="Texture2D" uid="uid://bstlfnpdw7tt" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_26.png" id="36_abu3m"]
+[ext_resource type="Texture2D" uid="uid://bshopey2py1t7" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Right/spr_ralsei_walk_right_3.png" id="36_f7il0"]
+[ext_resource type="Texture2D" uid="uid://5b81gujljl0r" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Right/spr_ralsei_walk_right_0.png" id="37_0kifa"]
+[ext_resource type="Texture2D" uid="uid://bjsa0tujkeru0" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_27.png" id="37_d6qdx"]
+[ext_resource type="Texture2D" uid="uid://s3ro33pb2ts" path="res://Sprites/TouchButton.png" id="37_yyv7g"]
+[ext_resource type="Texture2D" uid="uid://dw5rh75141ug6" path="res://Sprites/Credits Pics/Gregg.png" id="38_4whhi"]
+[ext_resource type="Texture2D" uid="uid://j71b3p7egkjh" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Right/spr_ralsei_walk_right_1.png" id="38_o3pco"]
+[ext_resource type="Texture2D" uid="uid://ka2w744wj6l2" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_28.png" id="38_v8k06"]
+[ext_resource type="Texture2D" uid="uid://dqcl4dwyaocbj" path="res://Sprites/Credits Pics/Lateasusual.png" id="39_fsud6"]
+[ext_resource type="Texture2D" uid="uid://ufh7yav63g3w" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Right/spr_ralsei_walk_right_2.png" id="39_lrikj"]
+[ext_resource type="Texture2D" uid="uid://cs14gx2l8pmcs" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_29.png" id="39_lucqs"]
+[ext_resource type="Texture2D" uid="uid://b1cbt34baqq8c" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Up/spr_ralsei_walk_up_3.png" id="40_5qbom"]
+[ext_resource type="Texture2D" uid="uid://broclh7c83sre" path="res://Sprites/Credits Pics/_imbit.png" id="40_14h7w"]
+[ext_resource type="Texture2D" uid="uid://b5a14rjl6sr0f" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_30.png" id="40_vnw81"]
+[ext_resource type="Texture2D" uid="uid://by6ek16wkofdi" path="res://Sprites/Credits Pics/orodelta.png" id="41_0cqpt"]
+[ext_resource type="Texture2D" uid="uid://y3a60yupx1jr" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Up/spr_ralsei_walk_up_0.png" id="41_fdpg6"]
+[ext_resource type="Texture2D" uid="uid://dw0qj13aucckc" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_31.png" id="41_n1rek"]
+[ext_resource type="Texture2D" uid="uid://cy653hyp072s3" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_32.png" id="42_0ahu8"]
+[ext_resource type="Texture2D" uid="uid://b07oukwdkd8c4" path="res://Sprites/Credits Pics/Godot.png" id="42_0cqpt"]
+[ext_resource type="Texture2D" uid="uid://bygyx6h6tv25h" path="res://Sprites/Credits Pics/rvpine.png" id="42_4svew"]
+[ext_resource type="Texture2D" uid="uid://ce16ociso1bhc" path="res://Sprites/Credits Pics/Toby 1.png" id="42_x4abi"]
+[ext_resource type="Texture2D" uid="uid://cyf4mwxnrgdic" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Up/spr_ralsei_walk_up_1.png" id="42_yq222"]
+[ext_resource type="Texture2D" uid="uid://hyfmydknkj81" path="res://Sprites/Credits Pics/Toby 2.png" id="43_4svew"]
+[ext_resource type="Texture2D" uid="uid://gwwog5fbp2o" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_33.png" id="43_eo4mc"]
+[ext_resource type="Texture2D" uid="uid://b4ubkm1j7ksv0" path="res://Sprites/Fun Gang Walk/Ralsei/Ralsei Up/spr_ralsei_walk_up_2.png" id="43_mbxdx"]
+[ext_resource type="Texture2D" uid="uid://vjuvfe2al2k0" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_34.png" id="44_lxg2y"]
+[ext_resource type="Texture2D" uid="uid://dhrtm127fx2jv" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_35.png" id="45_1mldb"]
+[ext_resource type="Texture2D" uid="uid://c1slmw6m8tf1f" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_36.png" id="46_vuo3w"]
+[ext_resource type="Texture2D" uid="uid://ctnpe8sxqxce0" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_37.png" id="47_py7v0"]
+[ext_resource type="Texture2D" uid="uid://ok8662nqqafh" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_38.png" id="48_ducu5"]
+[ext_resource type="Texture2D" uid="uid://jjhlrgc2vuv8" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_39.png" id="49_n3uq5"]
+[ext_resource type="Texture2D" uid="uid://xvy04fba4on5" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_40.png" id="50_n5ql2"]
+[ext_resource type="Texture2D" uid="uid://ca5hkwchvu85w" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_41.png" id="51_l10xu"]
+[ext_resource type="Texture2D" uid="uid://bxuh83flan2k1" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_42.png" id="52_e54qr"]
+[ext_resource type="Texture2D" uid="uid://4xfttr543tfs" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_43.png" id="53_lmu3m"]
+[ext_resource type="Texture2D" uid="uid://baor1i3rebggy" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_44.png" id="54_po7vs"]
+[ext_resource type="Texture2D" uid="uid://cgw71ixdelm8p" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_45.png" id="55_ktmy0"]
+[ext_resource type="Texture2D" uid="uid://bl62ywvi7o8it" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_46.png" id="56_fvu3r"]
+[ext_resource type="Texture2D" uid="uid://k5y2p0dsadhf" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_47.png" id="57_yhfyb"]
+[ext_resource type="Texture2D" uid="uid://cjy2ihtkx5oxn" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_48.png" id="58_hunbv"]
+[ext_resource type="Texture2D" uid="uid://cjkxusuylrhgo" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_49.png" id="59_ifwwf"]
+[ext_resource type="Texture2D" uid="uid://djhaqkxdftqfp" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_50.png" id="60_y2vu4"]
+[ext_resource type="Texture2D" uid="uid://bi65k5bu0xfda" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_51.png" id="61_xhh8r"]
+[ext_resource type="Texture2D" uid="uid://bwdq2x300lsmt" path="res://Sprites/Cafe Performers/IMAGE_FRIEND.png" id="62_557pi"]
+[ext_resource type="Texture2D" uid="uid://xymmvwc4bark" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_52.png" id="62_en8yw"]
+[ext_resource type="Texture2D" uid="uid://ujayvc7da783" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_53.png" id="63_5jlyo"]
+[ext_resource type="AudioStream" uid="uid://hvhodiqho3cp" path="res://Audio/Laugh.mp3" id="64_75wuu"]
+[ext_resource type="Texture2D" uid="uid://cpehsoyfdohu5" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_54.png" id="64_logtp"]
+[ext_resource type="AudioStream" uid="uid://bajgbabf63v0v" path="res://Audio/Castle Funk (Cafe).mp3" id="65_75wuu"]
+[ext_resource type="Texture2D" uid="uid://cf27kjkk77ko" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_55.png" id="65_q016b"]
+[ext_resource type="Texture2D" uid="uid://be2v7vnevmk4k" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_56.png" id="66_onnpl"]
+[ext_resource type="Texture2D" uid="uid://do2mnp2d0qw3h" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_57.png" id="67_8ijga"]
+[ext_resource type="Texture2D" uid="uid://p2hr72jr34ca" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_58.png" id="68_m8ukg"]
+[ext_resource type="Texture2D" uid="uid://cm242qdy1xsqp" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_59.png" id="69_6x67b"]
+[ext_resource type="Texture2D" uid="uid://bbam13toby6xf" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_60.png" id="70_o3bjm"]
+[ext_resource type="Texture2D" uid="uid://wmclb0e2lk64" path="res://Sprites/ButtonPromps/Xbox/spr_controllersetup_xinput_13.png" id="71_767mb"]
+[ext_resource type="Texture2D" uid="uid://b341jabgxg1p8" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_61.png" id="71_kpjad"]
+[ext_resource type="Texture2D" uid="uid://21bwbybccgsc" path="res://Sprites/ButtonPromps/PS/Share Button Big.png" id="72_767mb"]
+[ext_resource type="Texture2D" uid="uid://bm8wtjbi2u0bn" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_62.png" id="72_aqf58"]
+[ext_resource type="Texture2D" uid="uid://gemextkqwdig" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_63.png" id="73_kyn1v"]
+[ext_resource type="Texture2D" uid="uid://bisadv3iu8ksu" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_64.png" id="74_lar1f"]
+[ext_resource type="Texture2D" uid="uid://ciicv24ym3do4" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_65.png" id="75_syg1s"]
+[ext_resource type="Texture2D" uid="uid://df8qr0t21sujq" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_66.png" id="76_2cx5d"]
+[ext_resource type="Texture2D" uid="uid://cdvdl5ulhstl0" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_67.png" id="77_eu5wy"]
+[ext_resource type="Texture2D" uid="uid://c2hba3vjh4i8t" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_68.png" id="78_h53c5"]
+[ext_resource type="Texture2D" uid="uid://4tab6chmtbkq" path="res://Sprites/Credits Pics/Soul.png" id="79_6agnd"]
+[ext_resource type="Texture2D" uid="uid://6qpffe4fe4eg" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_69.png" id="79_hsk5n"]
+[ext_resource type="Texture2D" uid="uid://dafqrehjw5bib" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_70.png" id="80_r00l8"]
+[ext_resource type="Texture2D" uid="uid://b1g2lvx8m7sj2" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_71.png" id="81_gb5sw"]
+[ext_resource type="Texture2D" uid="uid://h4hci2plv25k" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_72.png" id="82_hl8yn"]
+[ext_resource type="Texture2D" uid="uid://th4mylf86c3n" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_73.png" id="83_adwn1"]
+[ext_resource type="Texture2D" uid="uid://bpdblsd4kn08s" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_74.png" id="84_0mgw5"]
+[ext_resource type="Texture2D" uid="uid://ctcsoj3mptd2" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_75.png" id="85_rtyh5"]
+[ext_resource type="Texture2D" uid="uid://dagjr4ki7tklp" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_76.png" id="86_lu78b"]
+[ext_resource type="Texture2D" uid="uid://vrcnej7u7hhy" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_77.png" id="87_bu1u5"]
+[ext_resource type="Texture2D" uid="uid://do0akfjo3rgjr" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_78.png" id="88_eha73"]
+[ext_resource type="Texture2D" uid="uid://cv2new50ys85y" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_79.png" id="89_jijl2"]
+[ext_resource type="Texture2D" uid="uid://bcliydklja5ot" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_80.png" id="90_kjvy0"]
+[ext_resource type="Texture2D" uid="uid://biokddp7a5cv2" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_81.png" id="91_dycfu"]
+[ext_resource type="Texture2D" uid="uid://ddjxehe8d2063" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_82.png" id="92_haydv"]
+[ext_resource type="Texture2D" uid="uid://cgg2jtk7gngur" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_83.png" id="93_ler1t"]
+[ext_resource type="Texture2D" uid="uid://isueeuqm2yc4" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_84.png" id="94_lr0v1"]
+[ext_resource type="Texture2D" uid="uid://bu6rsf6vxr6xr" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_85.png" id="95_08r2p"]
+[ext_resource type="Texture2D" uid="uid://2rwbjdmyeski" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_86.png" id="96_vg1s1"]
+[ext_resource type="Texture2D" uid="uid://c08fuh7osexy" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_87.png" id="97_4p8b5"]
+[ext_resource type="Texture2D" uid="uid://cjtxqpbh8u7wl" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_88.png" id="98_o0spj"]
+[ext_resource type="Texture2D" uid="uid://c3s6abrc1m4r5" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_89.png" id="99_7keje"]
+[ext_resource type="Texture2D" uid="uid://brfe4pqgt857m" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_90.png" id="100_y5vky"]
+[ext_resource type="Texture2D" uid="uid://crxa1jxphatfp" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_91.png" id="101_il7vx"]
+[ext_resource type="Texture2D" uid="uid://ctja1ikb81fdt" path="res://Sprites/Cafe Performers/Tenna Dance/spr_tenna_dance_cabbage_92.png" id="102_ujmu0"]
+[ext_resource type="Texture2D" uid="uid://dx4xc6jypbwol" path="res://Sprites/Cafe/Room/cafe table/spr_dw_castle_cafe_table_0.png" id="113_37dvb"]
+[ext_resource type="Texture2D" uid="uid://ccf2484c1yey1" path="res://Sprites/Cafe/Room/Swatch Cat.png" id="113_xi823"]
+[ext_resource type="Texture2D" uid="uid://bc3qj1pnqiyh6" path="res://Sprites/Cafe/Room/cafe table/spr_dw_castle_cafe_table_1.png" id="114_7111u"]
+[ext_resource type="Texture2D" uid="uid://ckudrtc0ky0tw" path="res://Sprites/Cafe/Room/cafe table/spr_dw_castle_cafe_table_2.png" id="115_m7fre"]
+[ext_resource type="Texture2D" uid="uid://eqxc2toqwi3a" path="res://Sprites/Cafe/Room/cafe table/spr_dw_castle_cafe_table_3.png" id="116_wxb8t"]
+[ext_resource type="Texture2D" uid="uid://cny4uu5wmqiwo" path="res://Sprites/ButtonPromps/Right Arrow.png" id="176_7111u"]
+[ext_resource type="Texture2D" uid="uid://076s7xibw1o1" path="res://Sprites/quitmessage/spr_quitmessage_0.png" id="178_6dwpy"]
+[ext_resource type="Texture2D" uid="uid://bbgr0y273677n" path="res://Sprites/quitmessage/spr_quitmessage_1.png" id="179_yato2"]
+[ext_resource type="Texture2D" uid="uid://ymdxxb82uadk" path="res://Sprites/quitmessage/spr_quitmessage_2.png" id="180_qu0ho"]
+[ext_resource type="Texture2D" uid="uid://socobhrkpf1f" path="res://Sprites/quitmessage/spr_quitmessage_3.png" id="181_w3u25"]
+[ext_resource type="Texture2D" uid="uid://hf5mmfe53xko" path="res://Sprites/quitmessage/spr_quitmessage_4.png" id="182_iquux"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5d822"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ne67i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1i24p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ifa43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_37dvb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8gxdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_7111u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_m7fre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wxb8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3wd6u")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ofows"]
+size = Vector2(68, 88)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5opjp"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(1, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i28r4"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(47, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ofows"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(93, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdulj"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(139, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56jqo"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(185, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7d3m5"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(231, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cl4t"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(277, 1, 45, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cddsj"]
+atlas = ExtResource("21_75jwl")
+region = Rect2(323, 1, 45, 70)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1higw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5opjp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i28r4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ofows")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdulj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56jqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7d3m5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cl4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cddsj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1higw"]
+atlas = ExtResource("22_5opjp")
+region = Rect2(1, 1, 68, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_at5gw"]
+atlas = ExtResource("22_5opjp")
+region = Rect2(70, 1, 68, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w0sw"]
+atlas = ExtResource("22_5opjp")
+region = Rect2(139, 1, 68, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1nqv"]
+atlas = ExtResource("22_5opjp")
+region = Rect2(208, 1, 68, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_y0qex"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1higw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_at5gw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w0sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1nqv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0qex"]
+atlas = ExtResource("23_i28r4")
+region = Rect2(1, 1, 34, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0yka1"]
+atlas = ExtResource("23_i28r4")
+region = Rect2(36, 1, 34, 43)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yyv7g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0qex")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0yka1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qv43w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_djp5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qv43w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_lg6tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rxbyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_bdcva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_40ikm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6dwpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_yato2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qu0ho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_w3u25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_iquux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_dx0s7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_facvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_jnuo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_xi823")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ne67i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1i24p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ifa43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_37dvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_7111u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_m7fre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_wxb8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_3wd6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_5d822")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_8gxdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_obw3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_abu3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_d6qdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_v8k06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_lucqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_vnw81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_n1rek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_0ahu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_eo4mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_lxg2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1mldb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_vuo3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_py7v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ducu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_n3uq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_n5ql2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_l10xu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_e54qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_lmu3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_po7vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_ktmy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_fvu3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_yhfyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_hunbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ifwwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_y2vu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_xhh8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_en8yw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_5jlyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_logtp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_q016b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_onnpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_8ijga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_m8ukg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_6x67b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_o3bjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_kpjad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_aqf58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_kyn1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_lar1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_syg1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_2cx5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_eu5wy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_h53c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_hsk5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_r00l8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_gb5sw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_hl8yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_adwn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_0mgw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_rtyh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_lu78b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_bu1u5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_eha73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_jijl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_kjvy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_dycfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_haydv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_ler1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_lr0v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_08r2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_vg1s1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_4p8b5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_o0spj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_7keje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_y5vky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_il7vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_ujmu0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 96.88
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yyv7g"]
+atlas = ExtResource("24_ofows")
+region = Rect2(1, 1, 56, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8gb11"]
+atlas = ExtResource("24_ofows")
+region = Rect2(58, 1, 56, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4whhi"]
+atlas = ExtResource("24_ofows")
+region = Rect2(115, 1, 56, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fsud6"]
+atlas = ExtResource("24_ofows")
+region = Rect2(172, 1, 56, 57)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w1qks"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yyv7g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8gb11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4whhi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fsud6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3wd6u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("113_37dvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_7111u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_m7fre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_wxb8t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.17
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xom0r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_4a00t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_6agnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_i0fb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_767mb")
+}],
+"loop": true,
+"name": &"Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_557pi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_75wuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_xixtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_i7axr")
+}],
+"loop": true,
+"name": &"Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_f7il0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_0kifa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_o3pco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_lrikj")
+}],
+"loop": true,
+"name": &"Right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_5qbom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_fdpg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_yq222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_mbxdx")
+}],
+"loop": true,
+"name": &"Up",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4a00t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_kma2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ef6dv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_obhax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_wes0k")
+}],
+"loop": true,
+"name": &"Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_3syja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ta4tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_s0g7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_lyyg7")
+}],
+"loop": true,
+"name": &"Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_h8ayi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ex3ui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oir2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_lgua3")
+}],
+"loop": true,
+"name": &"Right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_bg2g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_i0md5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_w4urg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_em6xj")
+}],
+"loop": true,
+"name": &"Up",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tdulj"]
+size = Vector2(20, 12)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xucoo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_v0s1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hcwhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5p1lm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1igrg")
+}],
+"loop": true,
+"name": &"Down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_i28r4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0duj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_75jwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5opjp")
+}],
+"loop": true,
+"name": &"Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_7d3m5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ofows")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tdulj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_56jqo")
+}],
+"loop": true,
+"name": &"Right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_at5gw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2cl4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cddsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_1higw")
+}],
+"loop": true,
+"name": &"Up",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8gb11"]
+size = Vector2(60, 66)
+
+[sub_resource type="Theme" id="Theme_ofows"]
+default_font_size = 40
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0yka1"]
+size = Vector2(40, 49)
+
+[sub_resource type="Theme" id="Theme_2cl4t"]
+
+[sub_resource type="Theme" id="Theme_y0qex"]
+default_font = ExtResource("27_56jqo")
+
+[sub_resource type="Theme" id="Theme_0yka1"]
+default_font = ExtResource("27_56jqo")
+default_font_size = 41
+
+[sub_resource type="Theme" id="Theme_8gb11"]
+default_font = ExtResource("27_56jqo")
+default_font_size = 32
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_upfq3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_x4abi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_4svew")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8gb11"]
+font = ExtResource("27_56jqo")
+font_size = 36
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dx0s7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("178_6dwpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_yato2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_qu0ho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_w3u25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_iquux")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="MenuMain" type="Node2D"]
+script = ExtResource("1_5p1lm")
+
+[node name="Cafe" type="Sprite2D" parent="."]
+z_index = -5
+position = Vector2(480, 278)
+texture = ExtResource("2_xi823")
+
+[node name="Lights" type="Node2D" parent="Cafe"]
+
+[node name="LightBeam" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(-289, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightBeam2" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(-214, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam2"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightBeam3" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(-137, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam3"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightBeam4" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(-62, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam4"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightBeam5" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(14, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam5"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightBeam6" type="AnimatedSprite2D" parent="Cafe/Lights"]
+self_modulate = Color(1, 1, 1, 0.588235)
+position = Vector2(90, -167)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_5d822")
+autoplay = "default"
+
+[node name="Light" type="AnimatedSprite2D" parent="Cafe/Lights/LightBeam6"]
+sprite_frames = SubResource("SpriteFrames_8gxdm")
+autoplay = "default"
+
+[node name="LightnersLiveLogo" type="Sprite2D" parent="Cafe"]
+self_modulate = Color(0.87, 0.87, 0.87, 1)
+position = Vector2(300, -210)
+scale = Vector2(1.62676, 1.62676)
+texture = ExtResource("3_6agnd")
+
+[node name="LogoBloom" type="Sprite2D" parent="Cafe/LightnersLiveLogo"]
+modulate = Color(1, 1, 1, 0.627451)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_i0fb5")
+
+[node name="Jukebox" type="Sprite2D" parent="Cafe"]
+position = Vector2(-370, -60)
+texture = ExtResource("3_dolsu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Cafe/Jukebox"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cafe/Jukebox/StaticBody2D"]
+shape = SubResource("RectangleShape2D_ofows")
+
+[node name="JukeboxGlow" type="Sprite2D" parent="Cafe/Jukebox"]
+texture = ExtResource("5_3w0sw")
+
+[node name="JukeboxExc" type="Label" parent="Cafe/Jukebox"]
+offset_left = -18.0
+offset_top = -128.0
+offset_right = 28.0
+offset_bottom = -8.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 96
+text = "!"
+
+[node name="Performers" type="Node2D" parent="Cafe"]
+
+[node name="Tasque Manager" type="AnimatedSprite2D" parent="Cafe/Performers"]
+position = Vector2(-274, -144)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_1higw")
+autoplay = "default"
+
+[node name="K_K" type="AnimatedSprite2D" parent="Cafe/Performers"]
+position = Vector2(-128, -152)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_y0qex")
+autoplay = "default"
+
+[node name="Sweet" type="AnimatedSprite2D" parent="Cafe/Performers"]
+position = Vector2(-16, -122)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_yyv7g")
+autoplay = "default"
+
+[node name="Tenna" type="AnimatedSprite2D" parent="Cafe/Performers"]
+visible = false
+position = Vector2(-16, -150)
+sprite_frames = SubResource("SpriteFrames_qv43w")
+autoplay = "default"
+
+[node name="Shadowguy" type="AnimatedSprite2D" parent="Cafe/Performers"]
+position = Vector2(70, -142)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_w1qks")
+autoplay = "default"
+
+[node name="Tables" type="Node2D" parent="Cafe"]
+
+[node name="Table" type="AnimatedSprite2D" parent="Cafe/Tables"]
+position = Vector2(-193, 118)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_3wd6u")
+autoplay = "default"
+
+[node name="Table2" type="AnimatedSprite2D" parent="Cafe/Tables"]
+position = Vector2(47, 118)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_3wd6u")
+autoplay = "default"
+frame = 1
+frame_progress = 0.726452
+
+[node name="NPCs" type="Node2D" parent="Cafe"]
+
+[node name="NPC1" type="AnimatedSprite2D" parent="Cafe/NPCs"]
+position = Vector2(-338, 144)
+
+[node name="NPC2" type="AnimatedSprite2D" parent="Cafe/NPCs"]
+position = Vector2(-192, 90)
+
+[node name="NPC3" type="AnimatedSprite2D" parent="Cafe/NPCs"]
+position = Vector2(-54, 138)
+
+[node name="NPC4" type="AnimatedSprite2D" parent="Cafe/NPCs"]
+position = Vector2(144, 140)
+
+[node name="Swatch" type="Sprite2D" parent="Cafe"]
+position = Vector2(260, -142)
+scale = Vector2(2, 2)
+texture = ExtResource("113_xi823")
+
+[node name="YSort" type="Node2D" parent="Cafe"]
+y_sort_enabled = true
+
+[node name="Ralsei" type="AnimatedSprite2D" parent="Cafe/YSort"]
+y_sort_enabled = true
+position = Vector2(294, 190)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_xom0r")
+animation = &"Up"
+
+[node name="Susie" type="AnimatedSprite2D" parent="Cafe/YSort"]
+y_sort_enabled = true
+position = Vector2(210, 186)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_4a00t")
+animation = &"Up"
+
+[node name="Kris" type="CharacterBody2D" parent="Cafe/YSort"]
+y_sort_enabled = true
+position = Vector2(252, 190)
+scale = Vector2(2, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cafe/YSort/Kris"]
+position = Vector2(0, 12)
+shape = SubResource("RectangleShape2D_tdulj")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="Cafe/YSort/Kris"]
+sprite_frames = SubResource("SpriteFrames_xucoo")
+animation = &"Up"
+
+[node name="Swatchling" type="Sprite2D" parent="Cafe"]
+z_index = 4
+position = Vector2(104, 90)
+texture = ExtResource("28_8gb11")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Cafe/Swatchling"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cafe/Swatchling/StaticBody2D"]
+position = Vector2(20, 37)
+shape = SubResource("RectangleShape2D_8gb11")
+
+[node name="DebugLevelText" type="Label" parent="Cafe"]
+visible = false
+offset_left = -406.0
+offset_top = 166.0
+offset_right = 186.0
+offset_bottom = 250.0
+theme = SubResource("Theme_ofows")
+text = "level"
+
+[node name="Collisions" type="StaticBody2D" parent="Cafe"]
+visible = false
+
+[node name="CafeCollision" type="CollisionPolygon2D" parent="Cafe/Collisions"]
+polygon = PackedVector2Array(194, 238, 194, 160, -408, 160, -408, -16, -386, -16, -386, -32, -368, -32, -352, -32, -352, -40, 412, -40, 412, 160, 312, 160, 312, 238, 196, 238, 328, 326, 592, 184, 618, -90, 514, -362, 264, -392, -112, -388, -434, -380, -568, -238, -614, -88, -624, 166, -366, 362, -96, 388, 74, 356, 182, 272)
+
+[node name="Table1" type="CollisionPolygon2D" parent="Cafe/Collisions"]
+polygon = PackedVector2Array(-238, 156, -238, 100, -230, 92, -222, 88, -208, 84, -200, 82, -184, 82, -176, 84, -168, 86, -162, 88, -146, 100, -146, 156)
+
+[node name="Table2" type="CollisionPolygon2D" parent="Cafe/Collisions"]
+position = Vector2(240, 0)
+polygon = PackedVector2Array(-238, 156, -238, 100, -230, 92, -222, 88, -208, 84, -200, 82, -184, 82, -176, 84, -168, 86, -162, 88, -146, 100, -146, 156)
+
+[node name="ButtonPrompts" type="Node2D" parent="Cafe"]
+
+[node name="PC" type="Sprite2D" parent="Cafe"]
+modulate = Color(0.745098, 0.745098, 0.745098, 1)
+position = Vector2(-360, 110)
+scale = Vector2(2, 2)
+texture = ExtResource("27_0yka1")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Cafe/PC"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cafe/PC/StaticBody2D"]
+position = Vector2(-4, 0.5)
+shape = SubResource("RectangleShape2D_0yka1")
+
+[node name="FRIEND" type="Sprite2D" parent="Cafe"]
+visible = false
+position = Vector2(120, 210)
+scale = Vector2(4.70729, 4.70729)
+texture = ExtResource("62_557pi")
+
+[node name="FRIENDLaugh" type="AudioStreamPlayer" parent="Cafe/FRIEND"]
+stream = ExtResource("64_75wuu")
+volume_db = -10.0
+bus = &"SFX"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("65_75wuu")
+volume_db = -5.0
+bus = &"Music"
+parameters/looping = true
+
+[node name="MenuUI" type="Control" parent="."]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Black" type="Sprite2D" parent="MenuUI"]
+position = Vector2(480, 270)
+scale = Vector2(80, 16)
+texture = ExtResource("26_tdulj")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MenuUI"]
+layout_mode = 0
+offset_left = 102.0
+offset_top = 78.0
+offset_right = 460.0
+offset_bottom = 504.0
+
+[node name="LevelList" type="VBoxContainer" parent="MenuUI/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TrackImage" type="Sprite2D" parent="MenuUI"]
+position = Vector2(678, 200)
+
+[node name="TrackName" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 12.0
+offset_right = 876.0
+offset_bottom = 134.0
+theme_override_constants/line_spacing = -14
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 50
+text = "Track Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackDifficulty" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 350.0
+offset_right = 876.0
+offset_bottom = 382.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Difficulty: Very Hard"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackHighScore" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 322.0
+offset_right = 876.0
+offset_bottom = 354.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "High Score: 1000000000"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackComposer" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 378.0
+offset_right = 876.0
+offset_bottom = 410.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Composer: Toby Fox, here's what it's like if it's longer"
+autowrap_mode = 2
+text_overrun_behavior = 1
+
+[node name="TrackDescription" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 406.0
+offset_right = 876.0
+offset_bottom = 510.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Description: Here's how long it'll be if it's a pretty long description that's 4 lines long."
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackID" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 113.0
+offset_right = 876.0
+offset_bottom = 122.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("28_7d3m5")
+theme_override_font_sizes/font_size = 8
+text = "Map ID: 77f9ed2c7e21f887402f0e4e36c373f7"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Switch8Bit" type="Node2D" parent="MenuUI"]
+position = Vector2(678, 304)
+
+[node name="Default" type="Label" parent="MenuUI/Switch8Bit"]
+offset_left = -164.0
+offset_top = -16.0
+offset_right = -6.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Original"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Bit" type="Label" parent="MenuUI/Switch8Bit"]
+offset_left = 6.0
+offset_top = -16.0
+offset_right = 136.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 22
+text = "EzioEagle Cover"
+vertical_alignment = 1
+
+[node name="ButtonPrompts" type="Node2D" parent="MenuUI"]
+
+[node name="PlayMap" type="Label" parent="MenuUI/ButtonPrompts"]
+offset_left = 102.0
+offset_top = 508.0
+offset_right = 212.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Play Map"
+
+[node name="PlayMapButton" type="Sprite2D" parent="MenuUI/ButtonPrompts/PlayMap"]
+position = Vector2(-14, 16)
+texture = ExtResource("30_cddsj")
+
+[node name="CloseMenu" type="Label" parent="MenuUI/ButtonPrompts"]
+offset_left = 272.0
+offset_top = 508.0
+offset_right = 382.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Close Menu"
+
+[node name="CloseMenuButton" type="Sprite2D" parent="MenuUI/ButtonPrompts/CloseMenu"]
+position = Vector2(-14, 16)
+texture = ExtResource("31_1higw")
+
+[node name="AlternateMusic" type="Label" parent="MenuUI/ButtonPrompts"]
+offset_left = 480.0
+offset_top = 510.0
+offset_right = 614.0
+offset_bottom = 542.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Switch to Alternate Music"
+
+[node name="AlternateMusicButton" type="Sprite2D" parent="MenuUI/ButtonPrompts/AlternateMusic"]
+position = Vector2(-14, 16)
+texture = ExtResource("32_at5gw")
+
+[node name="TabArrowR" type="Sprite2D" parent="MenuUI/ButtonPrompts"]
+position = Vector2(462, 52)
+scale = Vector2(2, 2)
+texture = ExtResource("176_7111u")
+
+[node name="OldMapScoreText" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 764.0
+offset_top = 324.0
+offset_right = 878.0
+offset_bottom = 351.0
+theme_override_constants/line_spacing = -5
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "*Score from older
+   version of map"
+
+[node name="Tabs" type="Node2D" parent="MenuUI"]
+position = Vector2(132, 28)
+
+[node name="CurrentMapPack" type="Label" parent="MenuUI/Tabs"]
+offset_left = 44.0
+offset_right = 332.0
+offset_bottom = 56.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="PreviousMapPack" type="Label" parent="MenuUI/Tabs"]
+offset_left = -50.0
+offset_top = 4.0
+offset_right = 36.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.362829, 0.362829, 0.362829, 1)
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="NextMapPack" type="Label" parent="MenuUI/Tabs"]
+offset_left = 340.0
+offset_top = 4.0
+offset_right = 428.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.362829, 0.362829, 0.362829, 1)
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="Ch4Message" type="Label" parent="MenuUI"]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 172.0
+offset_right = 472.0
+offset_bottom = 468.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "The rest of the Chapter 4 maps will be coming in the next major update!"
+autowrap_mode = 3
+text_overrun_behavior = 2
+
+[node name="SettingsUI" type="Control" parent="."]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Black" type="Sprite2D" parent="SettingsUI"]
+position = Vector2(480, 270)
+scale = Vector2(80, 16)
+texture = ExtResource("26_tdulj")
+
+[node name="SettingsTitleText" type="Label" parent="SettingsUI"]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 10.0
+offset_right = 684.0
+offset_bottom = 132.0
+theme_override_constants/line_spacing = -14
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 80
+text = "Settings"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackHighScore" type="Label" parent="SettingsUI"]
+visible = false
+layout_mode = 0
+offset_left = 480.0
+offset_top = 322.0
+offset_right = 876.0
+offset_bottom = 354.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "High Score: 1000000000"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="ResChangeText" type="Label" parent="SettingsUI"]
+visible = false
+layout_mode = 0
+offset_left = 128.0
+offset_top = 396.0
+offset_right = 584.0
+offset_bottom = 476.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Press F4 at any time to switch resolutions betweeen native (960x540), 2X (1080p), and Fullscreen"
+autowrap_mode = 2
+text_overrun_behavior = 1
+
+[node name="TrackDescription" type="Label" parent="SettingsUI"]
+visible = false
+layout_mode = 0
+offset_left = 480.0
+offset_top = 406.0
+offset_right = 876.0
+offset_bottom = 510.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Description: Here's how long it'll be if it's a pretty long description that's 4 lines long."
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackID" type="Label" parent="SettingsUI"]
+visible = false
+layout_mode = 0
+offset_left = 480.0
+offset_top = 113.0
+offset_right = 876.0
+offset_bottom = 122.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("28_7d3m5")
+theme_override_font_sizes/font_size = 8
+text = "Map ID: 77f9ed2c7e21f887402f0e4e36c373f7"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SelectableOptions" type="Node2D" parent="SettingsUI"]
+
+[node name="LatencyBar" type="HScrollBar" parent="SettingsUI/SelectableOptions"]
+offset_left = 124.0
+offset_top = 144.0
+offset_right = 320.0
+offset_bottom = 176.0
+theme = SubResource("Theme_2cl4t")
+min_value = -40.0
+max_value = 40.0
+step = 1.0
+rounded = true
+custom_step = 1.0
+
+[node name="LatencyText" type="Label" parent="SettingsUI/SelectableOptions/LatencyBar"]
+layout_mode = 0
+offset_left = 200.0
+offset_right = 742.0
+offset_bottom = 32.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Latency Offset: +20"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="Label" type="Label" parent="SettingsUI/SelectableOptions/LatencyBar"]
+layout_mode = 0
+offset_left = 452.0
+offset_right = 754.0
+offset_bottom = 35.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Increase if you're hitting too early
+Decrease if you're hitting too late"
+
+[node name="VolumeMasterBar" type="HScrollBar" parent="SettingsUI/SelectableOptions"]
+offset_left = 124.0
+offset_top = 192.0
+offset_right = 320.0
+offset_bottom = 224.0
+theme = SubResource("Theme_2cl4t")
+max_value = 1.0
+step = 0.05
+
+[node name="VolumeMasterText" type="Label" parent="SettingsUI/SelectableOptions/VolumeMasterBar"]
+layout_mode = 0
+offset_left = 200.0
+offset_right = 742.0
+offset_bottom = 32.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Master Volume: 100%"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="VolumeMusicBar" type="HScrollBar" parent="SettingsUI/SelectableOptions"]
+offset_left = 124.0
+offset_top = 240.0
+offset_right = 320.0
+offset_bottom = 272.0
+theme = SubResource("Theme_2cl4t")
+max_value = 1.0
+step = 0.05
+
+[node name="VolumeMusicText" type="Label" parent="SettingsUI/SelectableOptions/VolumeMusicBar"]
+layout_mode = 0
+offset_left = 200.0
+offset_right = 742.0
+offset_bottom = 32.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Music Volume: 100%"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="VolumeSFXBar" type="HScrollBar" parent="SettingsUI/SelectableOptions"]
+offset_left = 124.0
+offset_top = 288.0
+offset_right = 320.0
+offset_bottom = 320.0
+theme = SubResource("Theme_2cl4t")
+max_value = 1.0
+step = 0.05
+
+[node name="VolumeSFXText" type="Label" parent="SettingsUI/SelectableOptions/VolumeSFXBar"]
+layout_mode = 0
+offset_left = 200.0
+offset_right = 742.0
+offset_bottom = 32.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "SFX Volume: 100%"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="ButtonPromptPlat" type="OptionButton" parent="SettingsUI/SelectableOptions"]
+offset_left = 126.0
+offset_top = 336.0
+offset_right = 320.0
+offset_bottom = 368.0
+theme = SubResource("Theme_y0qex")
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 24
+selected = 0
+allow_reselect = true
+item_count = 3
+popup/item_0/text = "PC"
+popup/item_0/icon = ExtResource("30_cddsj")
+popup/item_0/id = 0
+popup/item_1/text = "Xbox"
+popup/item_1/icon = ExtResource("34_y0qex")
+popup/item_1/id = 1
+popup/item_2/text = "PS"
+popup/item_2/icon = ExtResource("35_0yka1")
+popup/item_2/id = 2
+
+[node name="ButtonPromptPlatText" type="Label" parent="SettingsUI/SelectableOptions/ButtonPromptPlat"]
+layout_mode = 0
+offset_left = 198.0
+offset_right = 740.0
+offset_bottom = 32.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Button Prompts Platform"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="ButtonPrompts" type="Node2D" parent="SettingsUI"]
+
+[node name="PlayMap" type="Label" parent="SettingsUI/ButtonPrompts"]
+visible = false
+offset_left = 102.0
+offset_top = 508.0
+offset_right = 212.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Play Map"
+
+[node name="PlayMapButton" type="Sprite2D" parent="SettingsUI/ButtonPrompts/PlayMap"]
+position = Vector2(-14, 16)
+texture = ExtResource("30_cddsj")
+
+[node name="CloseMenu" type="Label" parent="SettingsUI/ButtonPrompts"]
+offset_left = 272.0
+offset_top = 508.0
+offset_right = 382.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Close Menu"
+
+[node name="CloseMenuButton" type="Sprite2D" parent="SettingsUI/ButtonPrompts/CloseMenu"]
+position = Vector2(-14, 16)
+texture = ExtResource("31_1higw")
+
+[node name="LatencyOffsetMap" type="Label" parent="SettingsUI/ButtonPrompts"]
+self_modulate = Color(0.833333, 0, 1, 1)
+offset_left = 480.0
+offset_top = 508.0
+offset_right = 718.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Latency Offset Map"
+
+[node name="LatencyOffsetMapButton" type="Sprite2D" parent="SettingsUI/ButtonPrompts/LatencyOffsetMap"]
+position = Vector2(-14, 16)
+texture = ExtResource("32_at5gw")
+
+[node name="Text" type="Label" parent="SettingsUI"]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 384.0
+offset_right = 860.0
+offset_bottom = 451.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Press F4/      /       at any time to toggle fullscreen
+Use the Latency Offset Map to more easily set the offset"
+
+[node name="BackButton" type="Sprite2D" parent="SettingsUI"]
+position = Vector2(264, 400)
+scale = Vector2(2, 2)
+texture = ExtResource("71_767mb")
+
+[node name="ShareButton" type="Sprite2D" parent="SettingsUI"]
+position = Vector2(316, 400)
+texture = ExtResource("72_767mb")
+
+[node name="VersionNumber" type="Label" parent="SettingsUI"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 36.0
+offset_right = 632.0
+offset_bottom = 68.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "V1.0"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="PCUI" type="Control" parent="."]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Black" type="Sprite2D" parent="PCUI"]
+position = Vector2(480, 270)
+scale = Vector2(80, 16)
+texture = ExtResource("26_tdulj")
+
+[node name="WebMessage" type="Label" parent="PCUI"]
+visible = false
+layout_mode = 0
+offset_left = 134.0
+offset_top = 74.0
+offset_right = 852.0
+offset_bottom = 450.0
+theme = SubResource("Theme_0yka1")
+text = "Custom Maps are only on the downloadable version for now, sorry!
+You can check it out by scrolling down the gamepage."
+autowrap_mode = 2
+
+[node name="NoCustomsMessage" type="Label" parent="PCUI"]
+visible = false
+layout_mode = 0
+offset_left = 134.0
+offset_top = 74.0
+offset_right = 852.0
+offset_bottom = 450.0
+theme = SubResource("Theme_0yka1")
+text = "No Custom maps found in the Custom Maps Folder."
+autowrap_mode = 2
+
+[node name="Button" type="Button" parent="PCUI"]
+visible = false
+layout_mode = 0
+offset_left = 356.0
+offset_top = 248.0
+offset_right = 580.0
+offset_bottom = 370.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "UPLOAD"
+
+[node name="ProgressBar" type="ProgressBar" parent="PCUI"]
+visible = false
+layout_mode = 0
+offset_left = 632.0
+offset_top = 252.0
+offset_right = 786.0
+offset_bottom = 372.0
+
+[node name="Label2" type="Label" parent="PCUI"]
+visible = false
+layout_mode = 0
+offset_left = 642.0
+offset_top = 374.0
+offset_right = 766.0
+offset_bottom = 404.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "SUCCESSFUL"
+
+[node name="CustomsMenu" type="Node2D" parent="PCUI"]
+visible = false
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PCUI/CustomsMenu"]
+offset_left = 102.0
+offset_top = 78.0
+offset_right = 460.0
+offset_bottom = 504.0
+
+[node name="LevelList" type="VBoxContainer" parent="PCUI/CustomsMenu/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TrackImage" type="Sprite2D" parent="PCUI/CustomsMenu"]
+position = Vector2(678, 200)
+
+[node name="TrackName" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 12.0
+offset_right = 876.0
+offset_bottom = 134.0
+theme_override_constants/line_spacing = -14
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 50
+text = "Track Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackDifficulty" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 350.0
+offset_right = 876.0
+offset_bottom = 382.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Difficulty: Very Hard"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="CustomMapText" type="Label" parent="PCUI/CustomsMenu"]
+visible = false
+offset_left = 186.0
+offset_top = 28.0
+offset_right = 562.0
+offset_bottom = 80.1
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 52
+text = "Custom Maps"
+text_overrun_behavior = 3
+
+[node name="TrackHighScore" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 322.0
+offset_right = 876.0
+offset_bottom = 354.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "High Score: 1000000000"
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackComposer" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 378.0
+offset_right = 876.0
+offset_bottom = 410.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Composer: Toby Fox, here's what it's like if it's longer"
+autowrap_mode = 2
+text_overrun_behavior = 1
+
+[node name="TrackDescription" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 406.0
+offset_right = 876.0
+offset_bottom = 510.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Description: Here's how long it'll be if it's a pretty long description that's 4 lines long."
+autowrap_mode = 2
+text_overrun_behavior = 3
+
+[node name="TrackID" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 480.0
+offset_top = 113.0
+offset_right = 876.0
+offset_bottom = 122.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("28_7d3m5")
+theme_override_font_sizes/font_size = 8
+text = "Map ID: 77f9ed2c7e21f887402f0e4e36c373f7"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Switch8Bit" type="Node2D" parent="PCUI/CustomsMenu"]
+visible = false
+position = Vector2(678, 304)
+
+[node name="Default" type="Label" parent="PCUI/CustomsMenu/Switch8Bit"]
+offset_left = -164.0
+offset_top = -16.0
+offset_right = -6.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Original"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Bit" type="Label" parent="PCUI/CustomsMenu/Switch8Bit"]
+offset_left = 6.0
+offset_top = -16.0
+offset_right = 136.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 22
+text = "EzioEagle Cover"
+vertical_alignment = 1
+
+[node name="ButtonPrompts" type="Node2D" parent="PCUI/CustomsMenu"]
+
+[node name="PlayMap" type="Label" parent="PCUI/CustomsMenu/ButtonPrompts"]
+offset_left = 26.0
+offset_top = 508.0
+offset_right = 136.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Play Map"
+
+[node name="PlayMapButton" type="Sprite2D" parent="PCUI/CustomsMenu/ButtonPrompts/PlayMap"]
+position = Vector2(-14, 16)
+texture = ExtResource("30_cddsj")
+
+[node name="CloseMenu" type="Label" parent="PCUI/CustomsMenu/ButtonPrompts"]
+offset_left = 168.0
+offset_top = 508.0
+offset_right = 302.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Close Menu"
+
+[node name="CloseMenuButton" type="Sprite2D" parent="PCUI/CustomsMenu/ButtonPrompts/CloseMenu"]
+position = Vector2(-14, 16)
+texture = ExtResource("31_1higw")
+
+[node name="AlternateMusic" type="Label" parent="PCUI/CustomsMenu/ButtonPrompts"]
+self_modulate = Color(1, 0, 0, 1)
+offset_left = 336.0
+offset_top = 508.0
+offset_right = 826.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Open Game Page for Custom Map Tutorial"
+
+[node name="AlternateMusicButton" type="Sprite2D" parent="PCUI/CustomsMenu/ButtonPrompts/AlternateMusic"]
+position = Vector2(-14, 16)
+texture = ExtResource("32_at5gw")
+
+[node name="AlternateMusic2" type="Label" parent="PCUI/CustomsMenu/ButtonPrompts/AlternateMusic"]
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 494.0
+offset_top = 2.0
+offset_right = 624.0
+offset_bottom = 43.0
+theme_override_constants/line_spacing = -7
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 18
+text = "(and check for updates)"
+autowrap_mode = 2
+
+[node name="OldMapScoreText" type="Label" parent="PCUI/CustomsMenu"]
+offset_left = 764.0
+offset_top = 324.0
+offset_right = 878.0
+offset_bottom = 351.0
+theme_override_constants/line_spacing = -5
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "*Score from older
+   version of map"
+
+[node name="Tabs" type="Node2D" parent="PCUI/CustomsMenu"]
+position = Vector2(132, 28)
+
+[node name="CurrentMapPack" type="Label" parent="PCUI/CustomsMenu/Tabs"]
+offset_left = 44.0
+offset_right = 332.0
+offset_bottom = 56.0
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="PreviousMapPack" type="Label" parent="PCUI/CustomsMenu/Tabs"]
+offset_left = -50.0
+offset_top = 4.0
+offset_right = 36.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.362829, 0.362829, 0.362829, 1)
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="NextMapPack" type="Label" parent="PCUI/CustomsMenu/Tabs"]
+offset_left = 340.0
+offset_top = 4.0
+offset_right = 428.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(0.362829, 0.362829, 0.362829, 1)
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Tab Loading Failed Somehow"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_overrun_behavior = 3
+
+[node name="FirstTimeMessage" type="Control" parent="."]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Black" type="Sprite2D" parent="FirstTimeMessage"]
+position = Vector2(480, 361)
+scale = Vector2(80, 11)
+texture = ExtResource("26_tdulj")
+
+[node name="Label" type="Label" parent="FirstTimeMessage"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 204.0
+offset_right = 862.0
+offset_bottom = 520.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Welcome To Lightners Live Plus!
+Since it's your first time here, it's recommended that you talk to Swatch and adjust the Latancy Offset Value, to make sure the notes will be perfectly on time! You can set it using the interactive map by pressing the prompt at the bottom in his menu. There's other settings too, like volume.
+Then, interact with the Jukebox to choose a song.
+Thank you for playing, hope you enjoy it!
+Press          to dismiss this text"
+autowrap_mode = 2
+
+[node name="CloseButton" type="Sprite2D" parent="FirstTimeMessage"]
+position = Vector2(198, 502)
+scale = Vector2(2, 2)
+texture = ExtResource("31_1higw")
+
+[node name="CreditsUI" type="Control" parent="."]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Black" type="Sprite2D" parent="CreditsUI"]
+position = Vector2(480, 263)
+scale = Vector2(80, 16.4667)
+texture = ExtResource("26_tdulj")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CreditsUI"]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 20.0
+offset_right = 876.0
+offset_bottom = 502.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CreditsUI/ScrollContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CreditsUI/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(750, 0)
+layout_mode = 2
+theme = SubResource("Theme_8gb11")
+text = "Welcome to Lightners Live Plus young masters.
+We observed your eager participation in Tenna's Lightners Live, and with his help, we created this place to allow you to have even more fun.
+
+
+Here are the people who helped bring this creation into being:
+
+       EzioEagle: They deigned to create this world.
+They also created the covers that are available as alternate music tracks. You may peruse their other work on YouTube.
+
+However, while a solo project this may be, they also relied on the efforts of others:
+
+       Lateasusual: Occasional coding advice and testing
+
+Two other IRL friends who aren't publicly online for testing
+
+       _imbit: recreations of the fun gang sprites
+
+       orodelta and        rvpine: recreations of the stage sprites
+
+           Toby Fox and the rest of the Deltarune team: Creating Deltarune in the first place
+
+       Godot Foundation and Godot's contributors : Creating the Godot engine
+
+And thank you for playing!
+"
+autowrap_mode = 2
+
+[node name="Gregg" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(20, 332)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("38_4whhi")
+
+[node name="Lateasusual" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(20, 614)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("39_fsud6")
+
+[node name="_imbit" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(20, 790)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("40_14h7w")
+
+[node name="orodelta" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(20, 860)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("41_0cqpt")
+
+[node name="rvpine" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(224, 860)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("42_4svew")
+
+[node name="Godot" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(20, 1068)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("42_0cqpt")
+
+[node name="Toby" type="AnimatedSprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(32, 956)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_upfq3")
+autoplay = "default"
+frame_progress = 0.532677
+
+[node name="Soul" type="Sprite2D" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+position = Vector2(356, 1174)
+scale = Vector2(2, 2)
+texture = ExtResource("79_6agnd")
+
+[node name="Label" type="Label" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+modulate = Color(1, 1, 1, 0.498039)
+layout_mode = 0
+offset_top = 466.0
+offset_right = 318.0
+offset_bottom = 492.0
+theme_override_font_sizes/font_size = 16
+text = "Scroll Down for more (press down)"
+
+[node name="PCorWebChange" type="Label" parent="CreditsUI/ScrollContainer/VBoxContainer/Label"]
+layout_mode = 0
+offset_top = 140.0
+offset_right = 750.0
+offset_bottom = 207.0
+text = "Speak to Swatch to change settings, select a map using the Jukebox, or select a custom map at the PC."
+autowrap_mode = 2
+
+[node name="ButtonPrompts" type="Node2D" parent="CreditsUI"]
+
+[node name="Links" type="Label" parent="CreditsUI/ButtonPrompts"]
+offset_left = 102.0
+offset_top = 508.0
+offset_right = 212.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "EzioEagle's Links :)"
+
+[node name="LinksButton" type="Sprite2D" parent="CreditsUI/ButtonPrompts/Links"]
+position = Vector2(-14, 16)
+texture = ExtResource("30_cddsj")
+
+[node name="CloseMenu" type="Label" parent="CreditsUI/ButtonPrompts"]
+offset_left = 410.0
+offset_top = 508.0
+offset_right = 554.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Close Menu"
+
+[node name="CloseMenuButton" type="Sprite2D" parent="CreditsUI/ButtonPrompts/CloseMenu"]
+position = Vector2(-14, 16)
+texture = ExtResource("31_1higw")
+
+[node name="AlternateMusic" type="Label" parent="CreditsUI/ButtonPrompts"]
+visible = false
+offset_left = 480.0
+offset_top = 510.0
+offset_right = 614.0
+offset_bottom = 542.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+theme_override_font_sizes/font_size = 32
+text = "Switch to Alternate Music"
+
+[node name="AlternateMusicButton" type="Sprite2D" parent="CreditsUI/ButtonPrompts/AlternateMusic"]
+position = Vector2(-14, 16)
+texture = ExtResource("32_at5gw")
+
+[node name="TouchControls" type="Control" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.498039)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="L" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(0, 438)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/L"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "L"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="R" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(208, 438)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/R"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "R"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="U" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(104, 334)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/U"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "U"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="D" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(104, 438)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/D"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "D"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Z" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(860, 440)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/Z"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "Z"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="X" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(756, 440)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/X"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "X"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="C" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(652, 440)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("37_yyv7g")
+texture_pressed = ExtResource("37_yyv7g")
+
+[node name="Label" type="Label" parent="TouchControls/C"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "C"
+label_settings = SubResource("LabelSettings_8gb11")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MobileDisclaimer" type="Label" parent="TouchControls"]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 448.0
+offset_right = 646.0
+offset_bottom = 540.0
+theme_override_fonts/font = ExtResource("27_56jqo")
+text = "Mobile is not officially supported, and has a high chance of bugs, including the maps completely breaking. Desktop play is the intended platform.
+But I added touch controls so you can try it anyway
+Good Luck :P"
+autowrap_mode = 2
+
+[node name="QuitMessage" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(88, 12)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_dx0s7")
+
+[connection signal="item_selected" from="SettingsUI/SelectableOptions/ButtonPromptPlat" to="." method="__6gW1"]
+[connection signal="pressed" from="PCUI/Button" to="." method="__qBxo"]

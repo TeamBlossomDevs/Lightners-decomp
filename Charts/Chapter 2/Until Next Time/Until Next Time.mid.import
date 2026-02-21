@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://pgcmv04rn5a1"
+path="res://.godot/imported/Until Next Time.mid-672fba8616504a397ec66afd4631a36f.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Until Next Time/Until Next Time.mid"
+dest_files=["res://.godot/imported/Until Next Time.mid-672fba8616504a397ec66afd4631a36f.res"]
+
+[params]
+

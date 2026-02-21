@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dpv7tc23bqe2y"
+path="res://.godot/imported/Hall of Fame.mid-23e252d1ff70aa08d4ed947a0b4d3a5f.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Hall of Fame/Hall of Fame.mid"
+dest_files=["res://.godot/imported/Hall of Fame.mid-23e252d1ff70aa08d4ed947a0b4d3a5f.res"]
+
+[params]
+

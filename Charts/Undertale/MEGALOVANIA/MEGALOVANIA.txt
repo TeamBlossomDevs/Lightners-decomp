@@ -1,0 +1,5 @@
+difficulty: Very Hard
+description: Bad Time
+Composer: Toby Fox
+volume: 1
+order: 100

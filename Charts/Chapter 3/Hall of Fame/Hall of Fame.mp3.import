@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3xcrh2ldlj8w"
+path="res://.godot/imported/Hall of Fame.mp3-f50cfa9cc4652550c886ae6b47d084eb.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Hall of Fame/Hall of Fame.mp3"
+dest_files=["res://.godot/imported/Hall of Fame.mp3-f50cfa9cc4652550c886ae6b47d084eb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

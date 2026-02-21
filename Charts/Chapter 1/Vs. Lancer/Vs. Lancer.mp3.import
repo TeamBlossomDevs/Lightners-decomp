@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ckyw2gk5cjgab"
+path="res://.godot/imported/Vs. Lancer.mp3-ee5e8ba5d01b933e7921faf74e827631.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Vs. Lancer/Vs. Lancer.mp3"
+dest_files=["res://.godot/imported/Vs. Lancer.mp3-ee5e8ba5d01b933e7921faf74e827631.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

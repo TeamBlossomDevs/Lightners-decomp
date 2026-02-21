@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d05bujfedjo4a"
+path="res://.godot/imported/Giga Size.mp3-be8661f1b18059d737ec3aae3b921392.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Giga Size/Giga Size.mp3"
+dest_files=["res://.godot/imported/Giga Size.mp3-be8661f1b18059d737ec3aae3b921392.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://osr15aroxgsa"
+path="res://.godot/imported/Power of Spamton.mp3-e9c49828f9217c448ddeb9fa95338fac.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Power of Spamton/Power of Spamton.mp3"
+dest_files=["res://.godot/imported/Power of Spamton.mp3-e9c49828f9217c448ddeb9fa95338fac.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

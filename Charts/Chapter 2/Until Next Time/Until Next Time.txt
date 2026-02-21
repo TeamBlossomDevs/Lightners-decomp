@@ -1,0 +1,5 @@
+difficulty: Medium
+description: Chapter 2 Credits Theme
+Composer: Toby Fox
+volume: 0
+order: 245

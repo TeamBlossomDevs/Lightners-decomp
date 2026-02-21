@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://x0s02jtf40s5"
+path="res://.godot/imported/BURNING EYES.mp3-8f78f3c673d5edab0f36843f4eae9b8f.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/BURNING EYES/BURNING EYES.mp3"
+dest_files=["res://.godot/imported/BURNING EYES.mp3-8f78f3c673d5edab0f36843f4eae9b8f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

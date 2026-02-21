@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://covpmo8rgd4iw"
+path="res://.godot/imported/Sound Check.mp3-da34d3f95f381363023a046162ff4f19.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Sound Check/Sound Check.mp3"
+dest_files=["res://.godot/imported/Sound Check.mp3-da34d3f95f381363023a046162ff4f19.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

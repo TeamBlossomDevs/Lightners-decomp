@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://he6i7i3ra1v5"
+path="res://.godot/imported/Dummy!.mid-759626f9a395be735715194eb33163e2.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Dummy!/Dummy!.mid"
+dest_files=["res://.godot/imported/Dummy!.mid-759626f9a395be735715194eb33163e2.res"]
+
+[params]
+

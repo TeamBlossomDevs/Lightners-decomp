@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cgcsd11gp6uw7"
+path="res://.godot/imported/Feature Presentation.mp3-d136201644dd9bb6761968a947887f03.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Feature Presentation/Feature Presentation.mp3"
+dest_files=["res://.godot/imported/Feature Presentation.mp3-d136201644dd9bb6761968a947887f03.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

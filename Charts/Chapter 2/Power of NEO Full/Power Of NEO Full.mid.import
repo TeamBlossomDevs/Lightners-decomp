@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bwpp18nw4aftf"
+path="res://.godot/imported/Power Of NEO Full.mid-4e3b09e407afb66d2d752fa2de47155d.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Power of NEO Full/Power Of NEO Full.mid"
+dest_files=["res://.godot/imported/Power Of NEO Full.mid-4e3b09e407afb66d2d752fa2de47155d.res"]
+
+[params]
+

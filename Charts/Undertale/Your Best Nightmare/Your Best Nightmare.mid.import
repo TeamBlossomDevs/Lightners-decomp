@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://de81kg7rg2e25"
+path="res://.godot/imported/Your Best Nightmare.mid-35ec724ab3705905104e3dc9c171cbe1.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Your Best Nightmare/Your Best Nightmare.mid"
+dest_files=["res://.godot/imported/Your Best Nightmare.mid-35ec724ab3705905104e3dc9c171cbe1.res"]
+
+[params]
+

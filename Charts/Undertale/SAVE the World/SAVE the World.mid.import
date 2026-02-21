@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://p1cuvad12tll"
+path="res://.godot/imported/SAVE the World.mid-bd4ed02d34a58636cbca57bb89791935.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/SAVE the World/SAVE the World.mid"
+dest_files=["res://.godot/imported/SAVE the World.mid-bd4ed02d34a58636cbca57bb89791935.res"]
+
+[params]
+

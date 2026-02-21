@@ -1,0 +1,5 @@
+difficulty: Medium
+description: Ch4's Castle Town theme (The preview version, the full OST version will be in the Chapter 4 map update)
+Composer: Toby Fox
+volume: 0
+order: 443

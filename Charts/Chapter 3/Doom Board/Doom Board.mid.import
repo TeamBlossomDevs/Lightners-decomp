@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bdfwliyyk3eij"
+path="res://.godot/imported/Doom Board.mid-b0a9607bcfe49d6a2e6a94c62c53ec38.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Doom Board/Doom Board.mid"
+dest_files=["res://.godot/imported/Doom Board.mid-b0a9607bcfe49d6a2e6a94c62c53ec38.res"]
+
+[params]
+

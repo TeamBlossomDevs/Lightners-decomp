@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://3q5db4v6mhc5"
+path="res://.godot/imported/The Legend.mid-28058b6b30cbf925f87712e491b0465e.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/The Legend/The Legend.mid"
+dest_files=["res://.godot/imported/The Legend.mid-28058b6b30cbf925f87712e491b0465e.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://etk00se4bcws"
+path="res://.godot/imported/Latency Offset Map.mid-cd3bee908cfe467a0851728bbe21e13e.res"
+
+[deps]
+
+source_file="res://Audio/Latency Offset Map.mid"
+dest_files=["res://.godot/imported/Latency Offset Map.mid-cd3bee908cfe467a0851728bbe21e13e.res"]
+
+[params]
+

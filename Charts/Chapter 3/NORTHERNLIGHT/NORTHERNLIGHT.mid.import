@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dvfyxtvcrehfg"
+path="res://.godot/imported/NORTHERNLIGHT.mid-94165f3bf01d136bd52b1c37467ac27a.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/NORTHERNLIGHT/NORTHERNLIGHT.mid"
+dest_files=["res://.godot/imported/NORTHERNLIGHT.mid-94165f3bf01d136bd52b1c37467ac27a.res"]
+
+[params]
+

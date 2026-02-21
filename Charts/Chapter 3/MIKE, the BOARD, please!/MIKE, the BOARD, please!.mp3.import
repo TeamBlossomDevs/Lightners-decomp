@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy6w5umvgo5u6"
+path="res://.godot/imported/MIKE, the BOARD, please!.mp3-3208f28da3f760d09f1405f662459b99.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/MIKE, the BOARD, please!/MIKE, the BOARD, please!.mp3"
+dest_files=["res://.godot/imported/MIKE, the BOARD, please!.mp3-3208f28da3f760d09f1405f662459b99.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

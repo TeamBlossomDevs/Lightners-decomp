@@ -1,0 +1,5 @@
+difficulty: Hard
+description: King's battle theme
+Composer: Toby Fox
+volume: 0
+order: 130

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cm3s3ypj2evd7"
+path="res://.godot/imported/Smart Race.mp3-d683ad2922c7689d1930460f325051d1.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Smart Race/Smart Race.mp3"
+dest_files=["res://.godot/imported/Smart Race.mp3-d683ad2922c7689d1930460f325051d1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

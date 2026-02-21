@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://s5s4ofiewbeb"
+path="res://.godot/imported/Doom Board.mp3-7bab28543828e88608062a52c19480f3.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Doom Board/Doom Board.mp3"
+dest_files=["res://.godot/imported/Doom Board.mp3-7bab28543828e88608062a52c19480f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

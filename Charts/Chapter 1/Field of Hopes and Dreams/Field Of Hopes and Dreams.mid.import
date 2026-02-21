@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://daqmpqtdnw04w"
+path="res://.godot/imported/Field Of Hopes and Dreams.mid-d2f4dac8111f8bd4893050fa4548a284.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Field of Hopes and Dreams/Field Of Hopes and Dreams.mid"
+dest_files=["res://.godot/imported/Field Of Hopes and Dreams.mid-d2f4dac8111f8bd4893050fa4548a284.res"]
+
+[params]
+

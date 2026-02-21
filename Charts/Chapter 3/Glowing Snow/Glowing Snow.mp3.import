@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dl14p726vpk05"
+path="res://.godot/imported/Glowing Snow.mp3-6f4ad948e3c2de0c47d2fb9b3a2295e4.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Glowing Snow/Glowing Snow.mp3"
+dest_files=["res://.godot/imported/Glowing Snow.mp3-6f4ad948e3c2de0c47d2fb9b3a2295e4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

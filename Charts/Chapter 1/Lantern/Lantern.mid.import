@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://8jeydjcnvlgm"
+path="res://.godot/imported/Lantern.mid-58b67a162d20e1812073772e900bbd3a.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Lantern/Lantern.mid"
+dest_files=["res://.godot/imported/Lantern.mid-58b67a162d20e1812073772e900bbd3a.res"]
+
+[params]
+

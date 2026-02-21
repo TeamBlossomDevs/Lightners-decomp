@@ -1,0 +1,5 @@
+difficulty: Very Hard
+description: Flowey's DEFENSE dropped to 0!
+Composer: Toby Fox
+volume: 3
+order: 80

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bx6ym0426y74i"
+path="res://.godot/imported/Dump.mid-7a0c35db252440fcd4ffe461f1d64dba.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Dump/Dump.mid"
+dest_files=["res://.godot/imported/Dump.mid-7a0c35db252440fcd4ffe461f1d64dba.res"]
+
+[params]
+

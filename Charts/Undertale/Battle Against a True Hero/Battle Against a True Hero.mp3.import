@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dusixbpwfcqv5"
+path="res://.godot/imported/Battle Against a True Hero.mp3-77ff3ff5437f72cd4b92b34188f6c1c6.mp3str"
+
+[deps]
+
+source_file="res://Charts/Undertale/Battle Against a True Hero/Battle Against a True Hero.mp3"
+dest_files=["res://.godot/imported/Battle Against a True Hero.mp3-77ff3ff5437f72cd4b92b34188f6c1c6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

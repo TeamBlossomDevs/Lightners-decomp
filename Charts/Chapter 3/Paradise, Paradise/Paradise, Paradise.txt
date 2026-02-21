@@ -1,0 +1,5 @@
+difficulty: Medium
+description: Welcome to KODAKODA ISLAND!
+Composer: Toby Fox
+volume: 0
+order: 316

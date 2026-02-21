@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Queen's battle theme
+Composer: Toby Fox
+volume: 5
+order: 232

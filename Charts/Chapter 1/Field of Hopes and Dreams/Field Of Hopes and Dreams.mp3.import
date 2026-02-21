@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbb8ql3yg8p7r"
+path="res://.godot/imported/Field Of Hopes and Dreams.mp3-80ddebc1efa28b14b5912bc917d9b6df.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Field of Hopes and Dreams/Field Of Hopes and Dreams.mp3"
+dest_files=["res://.godot/imported/Field Of Hopes and Dreams.mp3-80ddebc1efa28b14b5912bc917d9b6df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

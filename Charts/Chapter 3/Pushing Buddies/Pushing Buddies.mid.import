@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://djukolhugup0"
+path="res://.godot/imported/Pushing Buddies.mid-b514c2cb8d1c78fb471f0e22003aa05a.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Pushing Buddies/Pushing Buddies.mid"
+dest_files=["res://.godot/imported/Pushing Buddies.mid-b514c2cb8d1c78fb471f0e22003aa05a.res"]
+
+[params]
+

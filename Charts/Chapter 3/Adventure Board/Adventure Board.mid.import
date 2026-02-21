@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://ckrccqgmxbphx"
+path="res://.godot/imported/Adventure Board.mid-83eddae269582f965387088a2c3c32c7.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Adventure Board/Adventure Board.mid"
+dest_files=["res://.godot/imported/Adventure Board.mid-83eddae269582f965387088a2c3c32c7.res"]
+
+[params]
+

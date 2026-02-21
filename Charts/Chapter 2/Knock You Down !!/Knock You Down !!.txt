@@ -1,0 +1,6 @@
+difficulty: Very Hard
+description: GIGA QUEEN's battle theme
+Composer: Toby Fox
+volume: 2
+alt volume: 0
+order: 235

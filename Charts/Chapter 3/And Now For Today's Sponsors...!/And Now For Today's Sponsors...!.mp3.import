@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5xo04nvlbf34"
+path="res://.godot/imported/And Now For Today's Sponsors...!.mp3-e2559c6d60e5dbe5a8e4b312a5bb8488.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/And Now For Today's Sponsors...!/And Now For Today's Sponsors...!.mp3"
+dest_files=["res://.godot/imported/And Now For Today's Sponsors...!.mp3-e2559c6d60e5dbe5a8e4b312a5bb8488.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

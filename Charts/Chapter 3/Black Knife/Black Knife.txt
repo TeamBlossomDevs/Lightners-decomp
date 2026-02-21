@@ -1,0 +1,6 @@
+difficulty: Hard
+description: The Roaring Knight's Battle Theme
+Composer: Toby Fox
+volume: 2
+alt volume: 4
+order: 330

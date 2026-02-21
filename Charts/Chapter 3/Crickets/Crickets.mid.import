@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dt0kyumnfwbvr"
+path="res://.godot/imported/Crickets.mid-4482209840539a230e2c6abe1ae9f554.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Crickets/Crickets.mid"
+dest_files=["res://.godot/imported/Crickets.mid-4482209840539a230e2c6abe1ae9f554.res"]
+
+[params]
+

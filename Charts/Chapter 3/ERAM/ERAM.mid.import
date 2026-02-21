@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bl2ls8o736r3p"
+path="res://.godot/imported/ERAM.mid-dfdb97d5b061e1831f0174abf8c7dbdd.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/ERAM/ERAM.mid"
+dest_files=["res://.godot/imported/ERAM.mid-dfdb97d5b061e1831f0174abf8c7dbdd.res"]
+
+[params]
+

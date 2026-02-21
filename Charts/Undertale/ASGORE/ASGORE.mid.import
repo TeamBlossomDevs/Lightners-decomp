@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dfxk3i6ctynbt"
+path="res://.godot/imported/ASGORE.mid-ccaebc4e2817155dcdac84ab71c6e700.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/ASGORE/ASGORE.mid"
+dest_files=["res://.godot/imported/ASGORE.mid-ccaebc4e2817155dcdac84ab71c6e700.res"]
+
+[params]
+

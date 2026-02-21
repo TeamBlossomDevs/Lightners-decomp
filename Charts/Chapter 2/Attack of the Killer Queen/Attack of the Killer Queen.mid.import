@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bx384twhn0a3r"
+path="res://.godot/imported/Attack of the Killer Queen.mid-b289c7fd27588c3af5be769c5f4d293e.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Attack of the Killer Queen/Attack of the Killer Queen.mid"
+dest_files=["res://.godot/imported/Attack of the Killer Queen.mid-b289c7fd27588c3af5be769c5f4d293e.res"]
+
+[params]
+

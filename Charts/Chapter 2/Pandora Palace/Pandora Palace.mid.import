@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bnf7hdf1md20s"
+path="res://.godot/imported/Pandora Palace.mid-51350d1c9ffde61a359e2c1a85fa6d45.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Pandora Palace/Pandora Palace.mid"
+dest_files=["res://.godot/imported/Pandora Palace.mid-51350d1c9ffde61a359e2c1a85fa6d45.res"]
+
+[params]
+

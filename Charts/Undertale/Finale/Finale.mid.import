@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dnrek4w51gihb"
+path="res://.godot/imported/Finale.mid-dc581a06be523f3858e493e48d0a4605.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Finale/Finale.mid"
+dest_files=["res://.godot/imported/Finale.mid-dc581a06be523f3858e493e48d0a4605.res"]
+
+[params]
+

@@ -1,0 +1,5 @@
+difficulty: Medium
+description: Rouxls Kaard's battle theme
+Composer: Toby Fox
+volume: 0
+order: 229

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cxubwkns4yk5j"
+path="res://.godot/imported/Glowing Snow.mid-adfdcee1a9ab9b3b383a1e4765840503.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Glowing Snow/Glowing Snow.mid"
+dest_files=["res://.godot/imported/Glowing Snow.mid-adfdcee1a9ab9b3b383a1e4765840503.res"]
+
+[params]
+

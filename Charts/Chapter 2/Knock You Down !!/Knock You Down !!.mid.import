@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://c2elvvygyg7k"
+path="res://.godot/imported/Knock You Down !!.mid-ccfbc6f6f63bf95ea011c4a13a9a5f8b.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Knock You Down !!/Knock You Down !!.mid"
+dest_files=["res://.godot/imported/Knock You Down !!.mid-ccfbc6f6f63bf95ea011c4a13a9a5f8b.res"]
+
+[params]
+

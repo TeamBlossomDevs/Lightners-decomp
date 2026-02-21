@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r61bxvx4802j"
+path="res://.godot/imported/Trailer Theme.mp3-d3fdcc380050c152c10a8cdde3f315a5.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Trailer Theme/Trailer Theme.mp3"
+dest_files=["res://.godot/imported/Trailer Theme.mp3-d3fdcc380050c152c10a8cdde3f315a5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

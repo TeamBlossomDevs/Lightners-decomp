@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bc86d1dth2rju"
+path="res://.godot/imported/Rude Buster.mid-ec143aac551ef839cb6f7b02b71e5f29.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Rude Buster/Rude Buster.mid"
+dest_files=["res://.godot/imported/Rude Buster.mid-ec143aac551ef839cb6f7b02b71e5f29.res"]
+
+[params]
+

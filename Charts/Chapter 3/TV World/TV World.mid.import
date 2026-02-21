@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://7oga83yhjjsf"
+path="res://.godot/imported/TV World.mid-eb7414b54614c7fc915d4edeb32cb182.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/TV World/TV World.mid"
+dest_files=["res://.godot/imported/TV World.mid-eb7414b54614c7fc915d4edeb32cb182.res"]
+
+[params]
+

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ce6t2op33u6va"
+path="res://.godot/imported/SAVE the World 8 Bit.mp3-f7ccad8cd45c32c6d9f8bde3519d0990.mp3str"
+
+[deps]
+
+source_file="res://Charts/Undertale/SAVE the World/SAVE the World 8 Bit.mp3"
+dest_files=["res://.godot/imported/SAVE the World 8 Bit.mp3-f7ccad8cd45c32c6d9f8bde3519d0990.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

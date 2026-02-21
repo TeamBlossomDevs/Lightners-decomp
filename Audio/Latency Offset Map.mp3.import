@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfinnoetusvwc"
+path="res://.godot/imported/Latency Offset Map.mp3-5a357f82e9004f0f1005a8e071d79136.mp3str"
+
+[deps]
+
+source_file="res://Audio/Latency Offset Map.mp3"
+dest_files=["res://.godot/imported/Latency Offset Map.mp3-5a357f82e9004f0f1005a8e071d79136.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

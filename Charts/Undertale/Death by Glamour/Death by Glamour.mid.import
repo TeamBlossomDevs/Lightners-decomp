@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b4b36gbma1fbf"
+path="res://.godot/imported/Death by Glamour.mid-df9f65ce6d9026d2dc74450f0e524657.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Death by Glamour/Death by Glamour.mid"
+dest_files=["res://.godot/imported/Death by Glamour.mid-df9f65ce6d9026d2dc74450f0e524657.res"]
+
+[params]
+

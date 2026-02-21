@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://djoqj4tcn1bth"
+path="res://.godot/imported/Welcome To The City.mid-10d75bf0cf2af07bdf6420f583f9f863.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Welcome To The City/Welcome To The City.mid"
+dest_files=["res://.godot/imported/Welcome To The City.mid-10d75bf0cf2af07bdf6420f583f9f863.res"]
+
+[params]
+

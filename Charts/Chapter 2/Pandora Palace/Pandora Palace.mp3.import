@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://133u5g1k8g0j"
+path="res://.godot/imported/Pandora Palace.mp3-c8dda374fba88ce5912e5639414b2a96.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Pandora Palace/Pandora Palace.mp3"
+dest_files=["res://.godot/imported/Pandora Palace.mp3-c8dda374fba88ce5912e5639414b2a96.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

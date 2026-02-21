@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dn60np7t2yue3"
+path="res://.godot/imported/Spear of Justice.mid-c17e54520a77ffeda5690c2f841d57cf.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Spear of Justice/Spear of Justice.mid"
+dest_files=["res://.godot/imported/Spear of Justice.mid-c17e54520a77ffeda5690c2f841d57cf.res"]
+
+[params]
+

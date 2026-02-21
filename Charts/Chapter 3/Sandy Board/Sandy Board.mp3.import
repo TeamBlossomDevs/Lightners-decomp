@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ddlncj2y1gku6"
+path="res://.godot/imported/Sandy Board.mp3-3ee507af4b9ba5754702603c24a99877.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Sandy Board/Sandy Board.mp3"
+dest_files=["res://.godot/imported/Sandy Board.mp3-3ee507af4b9ba5754702603c24a99877.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,5 @@
+difficulty: Normal
+description: Prove to me you are strong enough to survive.
+Composer: Toby Fox
+volume: 3
+order: 14

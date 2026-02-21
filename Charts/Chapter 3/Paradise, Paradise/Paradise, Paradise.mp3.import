@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bsbkg71xhxqsx"
+path="res://.godot/imported/Paradise, Paradise.mp3-6c8eef37dfa129eda0b6765f45a1e39a.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Paradise, Paradise/Paradise, Paradise.mp3"
+dest_files=["res://.godot/imported/Paradise, Paradise.mp3-6c8eef37dfa129eda0b6765f45a1e39a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1qr175gn327g"
+path="res://.godot/imported/My Funky Town.mp3-9576195f7e7e0510970f375b44a5d499.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 4/My Funky Town/My Funky Town.mp3"
+dest_files=["res://.godot/imported/My Funky Town.mp3-9576195f7e7e0510970f375b44a5d499.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,5 @@
+difficulty: Easy
+description: What if it became even darker?
+Composer: Toby Fox
+volume: 0
+order: 301

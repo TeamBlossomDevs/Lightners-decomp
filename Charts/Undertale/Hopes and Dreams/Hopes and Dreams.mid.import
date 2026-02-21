@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://djojn4i1u02fn"
+path="res://.godot/imported/Hopes and Dreams.mid-34d2197901d1d41b0075e066364a448f.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Hopes and Dreams/Hopes and Dreams.mid"
+dest_files=["res://.godot/imported/Hopes and Dreams.mid-34d2197901d1d41b0075e066364a448f.res"]
+
+[params]
+

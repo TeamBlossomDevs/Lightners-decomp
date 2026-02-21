@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b08n15u7u3trb"
+path="res://.godot/imported/It's TV Time!.mid-25595a3f65e946fa81354fde7df94b51.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/It's TV Time!/It's TV Time!.mid"
+dest_files=["res://.godot/imported/It's TV Time!.mid-25595a3f65e946fa81354fde7df94b51.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://c3u7gg0topqvu"
+path="res://.godot/imported/Sound Check.mid-670d81c8caa44a846d6b41157c2e4881.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Sound Check/Sound Check.mid"
+dest_files=["res://.godot/imported/Sound Check.mid-670d81c8caa44a846d6b41157c2e4881.res"]
+
+[params]
+

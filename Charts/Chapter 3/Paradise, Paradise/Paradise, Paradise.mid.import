@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cwebc1tuvjo1w"
+path="res://.godot/imported/Paradise, Paradise.mid-52f37c3c020a6af353147dfbf2695d12.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Paradise, Paradise/Paradise, Paradise.mid"
+dest_files=["res://.godot/imported/Paradise, Paradise.mid-52f37c3c020a6af353147dfbf2695d12.res"]
+
+[params]
+

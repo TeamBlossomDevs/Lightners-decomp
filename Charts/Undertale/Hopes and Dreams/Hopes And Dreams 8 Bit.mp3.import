@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmtines1omx3a"
+path="res://.godot/imported/Hopes And Dreams 8 Bit.mp3-80150174e0772813fa542a29a17d193b.mp3str"
+
+[deps]
+
+source_file="res://Charts/Undertale/Hopes and Dreams/Hopes And Dreams 8 Bit.mp3"
+dest_files=["res://.godot/imported/Hopes And Dreams 8 Bit.mp3-80150174e0772813fa542a29a17d193b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

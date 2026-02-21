@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://4imxrbvmypm5"
+path="res://.godot/imported/Black Knife.mid-bdd859d78866788f7a4004892703923e.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Black Knife/Black Knife.mid"
+dest_files=["res://.godot/imported/Black Knife.mid-bdd859d78866788f7a4004892703923e.res"]
+
+[params]
+

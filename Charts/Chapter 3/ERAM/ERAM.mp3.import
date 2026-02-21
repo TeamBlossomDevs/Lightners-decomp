@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://2tyawn4gt6vd"
+path="res://.godot/imported/ERAM.mp3-aa6b2c62bc2d5d62a4f6413dc8619243.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/ERAM/ERAM.mp3"
+dest_files=["res://.godot/imported/ERAM.mp3-aa6b2c62bc2d5d62a4f6413dc8619243.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

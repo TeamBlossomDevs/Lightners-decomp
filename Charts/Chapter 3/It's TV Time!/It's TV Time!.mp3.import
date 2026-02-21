@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d23bin75v363i"
+path="res://.godot/imported/It's TV Time!.mp3-8ea62c40e0d5658b36702e8e52488f9a.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/It's TV Time!/It's TV Time!.mp3"
+dest_files=["res://.godot/imported/It's TV Time!.mp3-8ea62c40e0d5658b36702e8e52488f9a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Tenna's Battle Theme
+Composer: Toby Fox
+volume: 0
+order: 327

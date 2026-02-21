@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b1je03t2kvwg8"
+path="res://.godot/imported/Spider Dance.mid-4cb9ca1f1b989bf821010aa1e13565c1.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Spider Dance/Spider Dance.mid"
+dest_files=["res://.godot/imported/Spider Dance.mid-4cb9ca1f1b989bf821010aa1e13565c1.res"]
+
+[params]
+

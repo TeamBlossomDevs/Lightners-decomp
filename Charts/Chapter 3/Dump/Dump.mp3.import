@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0k8ocojfryeh"
+path="res://.godot/imported/Dump.mp3-9400ef70f0555f679a5c628ac575c756.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Dump/Dump.mp3"
+dest_files=["res://.godot/imported/Dump.mp3-9400ef70f0555f679a5c628ac575c756.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

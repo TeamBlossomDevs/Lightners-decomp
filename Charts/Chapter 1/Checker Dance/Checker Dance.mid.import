@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b4d2ye5jp8hod"
+path="res://.godot/imported/Checker Dance.mid-ac5345a8be5a04bd071fd3315164c606.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Checker Dance/Checker Dance.mid"
+dest_files=["res://.godot/imported/Checker Dance.mid-ac5345a8be5a04bd071fd3315164c606.res"]
+
+[params]
+

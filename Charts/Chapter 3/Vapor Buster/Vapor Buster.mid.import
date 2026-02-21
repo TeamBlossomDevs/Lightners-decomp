@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dmy4i46e5na0f"
+path="res://.godot/imported/Vapor Buster.mid-5b5ea608b1f40dc1ee6230be76dd3081.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Vapor Buster/Vapor Buster.mid"
+dest_files=["res://.godot/imported/Vapor Buster.mid-5b5ea608b1f40dc1ee6230be76dd3081.res"]
+
+[params]
+

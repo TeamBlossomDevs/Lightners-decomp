@@ -1,0 +1,5 @@
+difficulty: Very Hard
+description: ERAM's battle theme
+Composer: Toby Fox
+volume: 0
+order: 338

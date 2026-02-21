@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://c6ksor4t01n8m"
+path="res://.godot/imported/SWORD.mid-e1b587ea2dcfcd58983442506fb27be5.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/SWORD/SWORD.mid"
+dest_files=["res://.godot/imported/SWORD.mid-e1b587ea2dcfcd58983442506fb27be5.res"]
+
+[params]
+

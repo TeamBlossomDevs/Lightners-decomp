@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dyb1yanifmjww"
+path="res://.godot/imported/Power of Spamton.mid-566351f9f7c2600b0924100ae6911c4d.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Power of Spamton/Power of Spamton.mid"
+dest_files=["res://.godot/imported/Power of Spamton.mid-566351f9f7c2600b0924100ae6911c4d.res"]
+
+[params]
+

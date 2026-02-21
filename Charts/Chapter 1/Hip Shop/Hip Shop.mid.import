@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://3f35l7b38en4"
+path="res://.godot/imported/Hip Shop.mid-b04f976dfb9a65ee26564a07c3df851f.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Hip Shop/Hip Shop.mid"
+dest_files=["res://.godot/imported/Hip Shop.mid-b04f976dfb9a65ee26564a07c3df851f.res"]
+
+[params]
+

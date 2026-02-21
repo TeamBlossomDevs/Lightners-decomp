@@ -1,0 +1,5 @@
+difficulty: Hard
+description: He nods sadly.
+Composer: Toby Fox
+volume: 6
+order: 77

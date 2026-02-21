@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://x4ccvb6pqmhe"
+path="res://.godot/imported/Feature Presentation.mid-906c6b9af2b2c3b9b8e41dc413fc18fa.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Feature Presentation/Feature Presentation.mid"
+dest_files=["res://.godot/imported/Feature Presentation.mid-906c6b9af2b2c3b9b8e41dc413fc18fa.res"]
+
+[params]
+

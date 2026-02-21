@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://doipg8ubkfmi0"
+path="res://.godot/imported/KING OF ROLYPOLY.mp3-0ff7e66311a37f5578f333fa80e93a5d.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/KING OF ROLYPOLY/KING OF ROLYPOLY.mp3"
+dest_files=["res://.godot/imported/KING OF ROLYPOLY.mp3-0ff7e66311a37f5578f333fa80e93a5d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

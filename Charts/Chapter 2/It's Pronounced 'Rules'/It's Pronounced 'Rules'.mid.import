@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://h1b7dkssmxyc"
+path="res://.godot/imported/It's Pronounced 'Rules'.mid-20af86fc6790b84349d898fe99d9d867.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/It's Pronounced 'Rules'/It's Pronounced 'Rules'.mid"
+dest_files=["res://.godot/imported/It's Pronounced 'Rules'.mid-20af86fc6790b84349d898fe99d9d867.res"]
+
+[params]
+

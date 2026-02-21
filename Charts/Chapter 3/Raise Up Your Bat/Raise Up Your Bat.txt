@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Come follow me into the dark With your heart as the ark Which shall shine you the way
+Composer: Toby Fox
+volume: 0
+order: 320

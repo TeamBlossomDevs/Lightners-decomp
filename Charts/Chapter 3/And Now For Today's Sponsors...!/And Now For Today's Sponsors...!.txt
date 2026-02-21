@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Did you know? This was originally teased in the Spamton Sweepstakes as a 1/20 chance on the 404 page
+Composer: Toby Fox
+volume: 0
+order: 303

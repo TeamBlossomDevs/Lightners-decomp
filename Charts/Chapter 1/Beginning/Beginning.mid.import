@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cqkm4to53nu6t"
+path="res://.godot/imported/Beginning.mid-1bf02a7e1d4de168c7fa13d14a5b65df.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Beginning/Beginning.mid"
+dest_files=["res://.godot/imported/Beginning.mid-1bf02a7e1d4de168c7fa13d14a5b65df.res"]
+
+[params]
+

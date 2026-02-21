@@ -1,0 +1,242 @@
+GDRE Tools v2.4.0
+Archcraft 2026.02.02, Intel(R) UHD Graphics (JSL), vulkan
+WARNING: Could not find embedded pck in EXE, found pck file, loading from: /home/nate/Games/LLP/Deltarune Lightners Live Plus.pck
+   at: sort_and_validate_pck_files (modules/gdsdecomp/utility/gdre_settings.cpp:594)
+Opening file: ~/Games/LLP/Deltarune Lightners Live Plus.pck
+Guessing bytecode revision from engine version: 4.4.1 (rev 0x77af6ca)
+WARNING: Can't load resource info from remap path res://Sprites/Icon.ico...
+Loaded 590 imported files
+Detected Engine Version: 4.4.1
+Detected Bytecode Revision: 4.3.0-stable (77af6ca)
+Verified 1324 files, no errors detected!
+Extracted 1324 files, no errors detected!
+Recreating plugin configs...
+ERROR: Error compiling code res://addons/addons/html5_file_dialog/HTML5FileDialog.gd: Compile errors:
+Line 59: "Unterminated string."
+   at: reload (modules/gdsdecomp/compat/fake_gdscript.cpp:159)
+ERROR: Error loading script: res://addons/addons/html5_file_dialog/HTML5FileDialog.gd
+   at: custom_load (modules/gdsdecomp/compat/script_loader.cpp:77)
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/00c357190e575a5860026ce006882856cea14ec3.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/00c357190e575a5860026ce006882856cea14ec3.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/da142370752bc2f269236b0e4065dcfa976f71a7.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/da142370752bc2f269236b0e4065dcfa976f71a7.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/c472ba773d6277076e844446593257ee2842c3ff.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/c472ba773d6277076e844446593257ee2842c3ff.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/628d73a946b4adf8d5b3e3dc400599cf3535f9dd.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/628d73a946b4adf8d5b3e3dc400599cf3535f9dd.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/3052cfeb5fb8156794acd0df8797f7d61637ff01.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/3052cfeb5fb8156794acd0df8797f7d61637ff01.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/a4d329509f0c748e983b5cb264b6e3431550e7db.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/a4d329509f0c748e983b5cb264b6e3431550e7db.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/6d1ae4582bdc79dff92073f326cab278c1f03d02.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/6d1ae4582bdc79dff92073f326cab278c1f03d02.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/a13f483b64bd96fc7df5c211b52e0935b383929f.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/a13f483b64bd96fc7df5c211b52e0935b383929f.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/667f9c59db899f8de309c392006fdfa076c8b310.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/667f9c59db899f8de309c392006fdfa076c8b310.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/5436e63d457dbf9588cc51198f7989e45d11691d.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/5436e63d457dbf9588cc51198f7989e45d11691d.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/1b671eeeabcb290370fa180e06309a615b7f2285.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/1b671eeeabcb290370fa180e06309a615b7f2285.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/a734111c28b999e1c54679950d56f75e56f68857.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/a734111c28b999e1c54679950d56f75e56f68857.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/2c40325bb0ec4e24ce6778b8ace40513dd00240b.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/2c40325bb0ec4e24ce6778b8ace40513dd00240b.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/7a5f8ad35dbfabd65b55e0a6d179be466384201a.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/7a5f8ad35dbfabd65b55e0a6d179be466384201a.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/f72ba037d48168e1c1dcc839d2b4f3c24db0b7ad.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/f72ba037d48168e1c1dcc839d2b4f3c24db0b7ad.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/153ee5e33b793d5123fb410ab45b6d9e030d66a5.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/153ee5e33b793d5123fb410ab45b6d9e030d66a5.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/66cff6f729b04edf810dcc36dd054e448f7e565c.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/66cff6f729b04edf810dcc36dd054e448f7e565c.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/9a5531ac5f1ad1f1af0fb1a9cff9ba00caada20f.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/9a5531ac5f1ad1f1af0fb1a9cff9ba00caada20f.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/126cea3fc5dd82b3b1d2154d6344df48937abb67.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/126cea3fc5dd82b3b1d2154d6344df48937abb67.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/264a73326bc9.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/264a73326bc9.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/1fc76210cd36.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/1fc76210cd36.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/43d134ccf578.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/43d134ccf578.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/5a34045eb261.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/5a34045eb261.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/10bc7d15c2a0.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/10bc7d15c2a0.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/df559a5b7c1a.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/df559a5b7c1a.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/54a09ccb4d87.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/54a09ccb4d87.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/caf8094dc1b3.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/caf8094dc1b3.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/9e4092b67c9a.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/9e4092b67c9a.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/acdb5831c424.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/acdb5831c424.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/438d1af56c8a.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/438d1af56c8a.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/60eec17c2000.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/60eec17c2000.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player/get/72a1a23f0f7d.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player/get/72a1a23f0f7d.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/252157b64e9a94686b363b3cce53f195cb828aa2.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/252157b64e9a94686b363b3cce53f195cb828aa2.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/79a7ef10a5d44adb419b4e4eed25ecc7f51f1875.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/79a7ef10a5d44adb419b4e4eed25ecc7f51f1875.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/3e7475cbc9d4ca9c3dc7937bafb87e81cd56ea95.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/3e7475cbc9d4ca9c3dc7937bafb87e81cd56ea95.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/c9d3336f718e89f456b07901e97a218e2381bf5a.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/c9d3336f718e89f456b07901e97a218e2381bf5a.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/21fdb95f53a370b31b4d51dca340612ab98c768d.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/21fdb95f53a370b31b4d51dca340612ab98c768d.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/82d08fccb8f699ed57c92e9caad19a0d7978569d.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/82d08fccb8f699ed57c92e9caad19a0d7978569d.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/ecc56664a665347b3cb09ad70d22307abd3f4b81.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/ecc56664a665347b3cb09ad70d22307abd3f4b81.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/85644488c498630475856d196b806fdd60e4c045.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/85644488c498630475856d196b806fdd60e4c045.zip
+Downloading plugin to populate cache: https://bitbucket.org/arlez80/godot-midi-player-g4/get/110f5cd54b00a706efe459f39a4e8e673d31f16b.zip
+No gdexts found in plugin, skipping: https://bitbucket.org/arlez80/godot-midi-player-g4/get/110f5cd54b00a706efe459f39a4e8e673d31f16b.zip
+Downloading plugin to populate cache: https://github.com/nlaha/godot-midi/releases/download/0.2.0/godot-midi-x64-universal-0.2.0.zip
+Populating plugin version hashes for godotmidi version: 0.2.0
+No plugin download url found for plugin godot_midi, hashes: c61e28902251b74ecbd5a6f9e4ac859f
+ERROR: Failed to find gdextension libraries for plugin res://addons/gdmaim/gdbc/gdbc.gdextension
+   at: export_resource (modules/gdsdecomp/exporters/gdextension_exporter.cpp:195)
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     0
+Failed scripts:                         0
+Imported resources for export session:  589
+Successfully converted:                 505
+Lossy:                                  12
+Rewrote metadata:                       504
+Non-importable conversions:             0
+Not converted:                          83
+Failed conversions:                     1
+-------------
+
+------
+
+The following native plugins failed to have their libraries copied:
+godot_midi
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.godot/imported/Latency Offset Map.mid-cd3bee908cfe467a0851728bbe21e13e.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Latency Offset Map.mid
+res://.godot/imported/Beginning.mid-1bf02a7e1d4de168c7fa13d14a5b65df.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Beginning.mid
+res://.godot/imported/Chaos King.mid-7272fe402539f3aff972552e08eac0af.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Chaos King.mid
+res://.godot/imported/Checker Dance.mid-ac5345a8be5a04bd071fd3315164c606.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Checker Dance.mid
+res://.godot/imported/Field Of Hopes and Dreams.mid-d2f4dac8111f8bd4893050fa4548a284.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Field Of Hopes and Dreams.mid
+res://.godot/imported/Hip Shop.mid-b04f976dfb9a65ee26564a07c3df851f.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Hip Shop.mid
+res://.godot/imported/Lantern.mid-58b67a162d20e1812073772e900bbd3a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Lantern.mid
+res://.godot/imported/Rude Buster.mid-ec143aac551ef839cb6f7b02b71e5f29.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Rude Buster.mid
+res://.godot/imported/THE WORLD REVOLVING.mid-956c90d66f28953f0c381b4a867ec0aa.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to THE WORLD REVOLVING.mid
+res://.godot/imported/The Legend.mid-28058b6b30cbf925f87712e491b0465e.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to The Legend.mid
+res://.godot/imported/Vs. Lancer.mid-9c6197abb374e9c866adcd7feac9745a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Vs. Lancer.mid
+res://.godot/imported/Vs. Susie.mid-d48888965ef864d68440e9fe4da8d25c.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Vs. Susie.mid
+res://.godot/imported/A CYBER'S WORLD.mid-ca22a94752c152d13062a353a2b203c4.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to A CYBER'S WORLD.mid
+res://.godot/imported/Attack of the Killer Queen.mid-b289c7fd27588c3af5be769c5f4d293e.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Attack of the Killer Queen.mid
+res://.godot/imported/BIG SHOT.mid-b42e24736bd38fc8a91b8a0dd2975488.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to BIG SHOT.mid
+res://.godot/imported/Cyber Battle (Solo).mid-afbc44b596d04655d32c9eacdc9475d9.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Cyber Battle (Solo).mid
+res://.godot/imported/Giga Size.mid-bb7f13837c56149290d9e357a839b1b0.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Giga Size.mid
+res://.godot/imported/It's Pronounced 'Rules'.mid-20af86fc6790b84349d898fe99d9d867.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to It's Pronounced 'Rules'.mid
+res://.godot/imported/Knock You Down !!.mid-ccfbc6f6f63bf95ea011c4a13a9a5f8b.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Knock You Down !!.mid
+res://.godot/imported/Lost Girl.mid-b5f5fc9c72b646e73c6433c41e5e6d53.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Lost Girl.mid
+res://.godot/imported/NOW'S YOUR CHANCE TO BE A.mid-3b0d4966c5264de6040f4e141f4b7194.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to NOW'S YOUR CHANCE TO BE A.mid
+res://.godot/imported/Pandora Palace.mid-51350d1c9ffde61a359e2c1a85fa6d45.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Pandora Palace.mid
+res://.godot/imported/Power Of NEO Full.mid-4e3b09e407afb66d2d752fa2de47155d.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Power Of NEO Full.mid
+res://.godot/imported/Power of Spamton.mid-566351f9f7c2600b0924100ae6911c4d.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Power of Spamton.mid
+res://.godot/imported/Queen Battle Original.mid-cea71e162aa75f70a52b832e48dde6a6.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Queen Battle Original.mid
+res://.godot/imported/Smart Race.mid-eaf3e5136ab99232f0a5164de0e72a93.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Smart Race.mid
+res://.godot/imported/Until Next Time.mid-672fba8616504a397ec66afd4631a36f.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Until Next Time.mid
+res://.godot/imported/Welcome To The City.mid-10d75bf0cf2af07bdf6420f583f9f863.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Welcome To The City.mid
+res://.godot/imported/Adventure Board.mid-83eddae269582f965387088a2c3c32c7.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Adventure Board.mid
+res://.godot/imported/And Now For Today's Sponsors...!.mid-ab92d1e2bade9abdb45b0893026dbe8a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to And Now For Today's Sponsors...!.mid
+res://.godot/imported/BIT ROOTS.mid-141af2a2d4df61b2f07337fe2bafbae3.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to BIT ROOTS.mid
+res://.godot/imported/BURNING EYES.mid-3d541b4fc1c05e5dc29dd54acc951934.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to BURNING EYES.mid
+res://.godot/imported/Big City Board.mid-00cf21fc6115ab65c10439929da5bf1b.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Big City Board.mid
+res://.godot/imported/Black Knife.mid-bdd859d78866788f7a4004892703923e.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Black Knife.mid
+res://.godot/imported/Board Clear!.mid-af54d2b6936916aec23629631002c6df.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Board Clear!.mid
+res://.godot/imported/Breath.mid-4ce0cc94cab3cad13e5bf44ef67d322e.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Breath.mid
+res://.godot/imported/Crickets.mid-4482209840539a230e2c6abe1ae9f554.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Crickets.mid
+res://.godot/imported/Dig! Dig! To The Center of the Earth!.mid-9cf39b92ecc9729c88e8e4ad4fd70e80.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Dig! Dig! To The Center of the Earth!.mid
+res://.godot/imported/Doom Board.mid-b0a9607bcfe49d6a2e6a94c62c53ec38.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Doom Board.mid
+res://.godot/imported/Dump.mid-7a0c35db252440fcd4ffe461f1d64dba.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Dump.mid
+res://.godot/imported/ERAM.mid-dfdb97d5b061e1831f0174abf8c7dbdd.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to ERAM.mid
+res://.godot/imported/Feature Presentation.mid-906c6b9af2b2c3b9b8e41dc413fc18fa.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Feature Presentation.mid
+res://.godot/imported/Flashback (Excerpt).mid-c78833001371ec01fb3dc71453f2c3a2.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Flashback (Excerpt).mid
+res://.godot/imported/GLACEIR.mid-99271e3a7ff5fa21db9bda72c55e8120.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to GLACEIR.mid
+res://.godot/imported/Glowing Snow.mid-adfdcee1a9ab9b3b383a1e4765840503.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Glowing Snow.mid
+res://.godot/imported/Green Room.mid-85d76331780ad54d19632c289c1dbb13.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Green Room.mid
+res://.godot/imported/Hall of Fame.mid-23e252d1ff70aa08d4ed947a0b4d3a5f.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Hall of Fame.mid
+res://.godot/imported/It's TV Time!.mid-25595a3f65e946fa81354fde7df94b51.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to It's TV Time!.mid
+res://.godot/imported/KING OF ROLYPOLY.mid-c915efb335753e8664eab66f85d5d9eb.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to KING OF ROLYPOLY.mid
+res://.godot/imported/MIKE, the BOARD, please!.mid-e7beb7e1768474bd3cb6cdc1df8e8988.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to MIKE, the BOARD, please!.mid
+res://.godot/imported/Metaphysical Challenge.mid-15923538d24208e453c5ae70fab51f1b.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Metaphysical Challenge.mid
+res://.godot/imported/NORTHERNLIGHT.mid-94165f3bf01d136bd52b1c37467ac27a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to NORTHERNLIGHT.mid
+res://.godot/imported/Paradise, Paradise.mid-52f37c3c020a6af353147dfbf2695d12.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Paradise, Paradise.mid
+res://.godot/imported/Physical Challenge.mid-ad5647a463372454fa27f836c6d99125.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Physical Challenge.mid
+res://.godot/imported/Pushing Buddies.mid-b514c2cb8d1c78fb471f0e22003aa05a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Pushing Buddies.mid
+res://.godot/imported/Query.mid-968d570fb464d6710e540f0c334e96fa.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Query.mid
+res://.godot/imported/Quiz!.mid-66a0069adfd4bd65a75c4264723d61d5.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Quiz!.mid
+res://.godot/imported/Raft Ride.mid-7945e5ee02ab96d8f49083f00e3658ea.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Raft Ride.mid
+res://.godot/imported/Raise Up Your Bat.mid-4d040ddaddbac09b85e879d9b72aeee7.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Raise Up Your Bat.mid
+res://.godot/imported/Ruder Buster.mid-1dfc2eec33d27f2d895b8b41d9d6bdce.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Ruder Buster.mid
+res://.godot/imported/SOUTH OF THE BORDER!!.mid-a9f6a047266a2903f5d29b59a095dfe5.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to SOUTH OF THE BORDER!!.mid
+res://.godot/imported/SWORD.mid-e1b587ea2dcfcd58983442506fb27be5.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to SWORD.mid
+res://.godot/imported/Sandy Board.mid-d423b80da3bef62e28b42ccc29bb1b49.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Sandy Board.mid
+res://.godot/imported/Sound Check.mid-670d81c8caa44a846d6b41157c2e4881.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Sound Check.mid
+res://.godot/imported/TV World.mid-eb7414b54614c7fc915d4edeb32cb182.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to TV World.mid
+res://.godot/imported/Trailer Theme.mid-15b264e32f19e5884870efa56c4a780a.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Trailer Theme.mid
+res://.godot/imported/Vapor Buster.mid-5b5ea608b1f40dc1ee6230be76dd3081.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Vapor Buster.mid
+res://.godot/imported/My Funky Town.mid-b4c2621214cf994ee1977430e8a41844.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to My Funky Town.mid
+res://.godot/imported/ASGORE.mid-ccaebc4e2817155dcdac84ab71c6e700.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to ASGORE.mid
+res://.godot/imported/Battle Against a True Hero.mid-25ec8d199952ed3d2ff82a707f67991c.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Battle Against a True Hero.mid
+res://.godot/imported/Bonetrousle.mid-5002e7269a9d7f1f38bbe6562b15efcc.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Bonetrousle.mid
+res://.godot/imported/Death by Glamour.mid-df9f65ce6d9026d2dc74450f0e524657.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Death by Glamour.mid
+res://.godot/imported/Dummy!.mid-759626f9a395be735715194eb33163e2.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Dummy!.mid
+res://.godot/imported/Finale.mid-dc581a06be523f3858e493e48d0a4605.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Finale.mid
+res://.godot/imported/Ghost Fight.mid-a2640cf2af7ea124d2ade9e6b9f70341.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Ghost Fight.mid
+res://.godot/imported/Heartache.mid-7e9a0d96f57c366690d485e5ca1d301f.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Heartache.mid
+res://.godot/imported/Hopes and Dreams.mid-34d2197901d1d41b0075e066364a448f.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Hopes and Dreams.mid
+res://.godot/imported/MEGALOVANIA.mid-4287d375be1fd505fc33977a1c31ec21.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to MEGALOVANIA.mid
+res://.godot/imported/Mad Mew Mew.mid-8774744d332790c0d4e4e3196f2103df.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Mad Mew Mew.mid
+res://.godot/imported/SAVE the World.mid-bd4ed02d34a58636cbca57bb89791935.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to SAVE the World.mid
+res://.godot/imported/Spear of Justice.mid-c17e54520a77ffeda5690c2f841d57cf.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Spear of Justice.mid
+res://.godot/imported/Spider Dance.mid-4cb9ca1f1b989bf821010aa1e13565c1.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Spider Dance.mid
+res://.godot/imported/Your Best Nightmare.mid-35ec724ab3705905104e3dc9c171cbe1.res ( importer: com.nlaha.godotmidi, type: MidiResource, format: mid) to Your Best Nightmare.mid
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Unsupported Resources Detected:
+The following resource types were detected in the project that conversion is not implemented for yet.
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+ - Resource Type: MidiResource Format: mid      Importer: com.nlaha.godotmidi
+
+------
+Missing GDExtension Libraries:
+The following GDExtension addons could not be detected and downloaded.
+Tip: Try finding the plugin in the Godot Asset Library or Github.
+
+ - godot_midi
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.4.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

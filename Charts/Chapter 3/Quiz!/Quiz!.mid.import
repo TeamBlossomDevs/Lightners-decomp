@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://ck7323ujrhrxo"
+path="res://.godot/imported/Quiz!.mid-66a0069adfd4bd65a75c4264723d61d5.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Quiz!/Quiz!.mid"
+dest_files=["res://.godot/imported/Quiz!.mid-66a0069adfd4bd65a75c4264723d61d5.res"]
+
+[params]
+

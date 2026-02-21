@@ -1,0 +1,5 @@
+difficulty: Medium
+description: 8 Bit cover of the music from the Deltarune Ch1-4 trailer
+Composer: Camellia, Toby Fox
+volume: -1
+order: 397

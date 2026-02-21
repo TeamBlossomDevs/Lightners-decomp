@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b2huo16j1fu85"
+path="res://.godot/imported/Big City Board.mid-00cf21fc6115ab65c10439929da5bf1b.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Big City Board/Big City Board.mid"
+dest_files=["res://.godot/imported/Big City Board.mid-00cf21fc6115ab65c10439929da5bf1b.res"]
+
+[params]
+

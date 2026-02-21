@@ -1,0 +1,5 @@
+difficulty: Hard
+description: BECOME STRONGER
+Composer: Toby Fox
+volume: 0
+order: 333

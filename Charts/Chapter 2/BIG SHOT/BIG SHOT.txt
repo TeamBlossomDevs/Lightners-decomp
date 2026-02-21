@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Spamton NEO's battle theme
+Composer: Toby Fox
+volume: 2
+order: 239

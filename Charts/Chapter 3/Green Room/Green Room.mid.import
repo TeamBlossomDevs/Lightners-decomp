@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://d1et2878732g4"
+path="res://.godot/imported/Green Room.mid-85d76331780ad54d19632c289c1dbb13.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Green Room/Green Room.mid"
+dest_files=["res://.godot/imported/Green Room.mid-85d76331780ad54d19632c289c1dbb13.res"]
+
+[params]
+

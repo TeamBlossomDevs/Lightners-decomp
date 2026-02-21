@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://da4vxt3tswqgo"
+path="res://.godot/imported/Query.mid-968d570fb464d6710e540f0c334e96fa.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Query/Query.mid"
+dest_files=["res://.godot/imported/Query.mid-968d570fb464d6710e540f0c334e96fa.res"]
+
+[params]
+

@@ -1,0 +1,6 @@
+difficulty: Hard
+description: Spamton's Unused Battle Theme
+Composer: Toby Fox
+volume: 0
+alt volume: 2
+order: 299

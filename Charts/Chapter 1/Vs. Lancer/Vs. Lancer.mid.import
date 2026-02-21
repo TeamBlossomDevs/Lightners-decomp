@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://p3mc7gd3s4ni"
+path="res://.godot/imported/Vs. Lancer.mid-9c6197abb374e9c866adcd7feac9745a.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Vs. Lancer/Vs. Lancer.mid"
+dest_files=["res://.godot/imported/Vs. Lancer.mid-9c6197abb374e9c866adcd7feac9745a.res"]
+
+[params]
+

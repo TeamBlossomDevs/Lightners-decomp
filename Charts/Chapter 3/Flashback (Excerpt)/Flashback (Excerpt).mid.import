@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://c7883f1tcm7er"
+path="res://.godot/imported/Flashback (Excerpt).mid-c78833001371ec01fb3dc71453f2c3a2.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Flashback (Excerpt)/Flashback (Excerpt).mid"
+dest_files=["res://.godot/imported/Flashback (Excerpt).mid-c78833001371ec01fb3dc71453f2c3a2.res"]
+
+[params]
+

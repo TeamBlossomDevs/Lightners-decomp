@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b567yr11goncg"
+path="res://.godot/imported/Raft Ride.mid-7945e5ee02ab96d8f49083f00e3658ea.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Raft Ride/Raft Ride.mid"
+dest_files=["res://.godot/imported/Raft Ride.mid-7945e5ee02ab96d8f49083f00e3658ea.res"]
+
+[params]
+

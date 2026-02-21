@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2bkugjs0jinh"
+path="res://.godot/imported/Power Of NEO Full 8 Bit.mp3-e4283a4c9bfefb88709c6e664d961e0f.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Power of NEO Full/Power Of NEO Full 8 Bit.mp3"
+dest_files=["res://.godot/imported/Power Of NEO Full 8 Bit.mp3-e4283a4c9bfefb88709c6e664d961e0f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

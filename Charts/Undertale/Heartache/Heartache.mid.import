@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://buq5y7162fuum"
+path="res://.godot/imported/Heartache.mid-7e9a0d96f57c366690d485e5ca1d301f.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Heartache/Heartache.mid"
+dest_files=["res://.godot/imported/Heartache.mid-7e9a0d96f57c366690d485e5ca1d301f.res"]
+
+[params]
+

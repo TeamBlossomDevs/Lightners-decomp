@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mnbfxbpvb2k4"
+path="res://.godot/imported/Physical Challenge.mp3-de13a494712f4f3688c471f69ad1b420.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Physical Challenge/Physical Challenge.mp3"
+dest_files=["res://.godot/imported/Physical Challenge.mp3-de13a494712f4f3688c471f69ad1b420.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

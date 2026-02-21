@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2o1vcv7wvvsw"
+path="res://.godot/imported/Attack of the Killer Queen.mp3-6b20960d42d6d2369c8e642e964e4197.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Attack of the Killer Queen/Attack of the Killer Queen.mp3"
+dest_files=["res://.godot/imported/Attack of the Killer Queen.mp3-6b20960d42d6d2369c8e642e964e4197.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

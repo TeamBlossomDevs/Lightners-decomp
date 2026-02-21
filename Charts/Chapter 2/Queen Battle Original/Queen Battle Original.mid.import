@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dvkadh16fq2cv"
+path="res://.godot/imported/Queen Battle Original.mid-cea71e162aa75f70a52b832e48dde6a6.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Queen Battle Original/Queen Battle Original.mid"
+dest_files=["res://.godot/imported/Queen Battle Original.mid-cea71e162aa75f70a52b832e48dde6a6.res"]
+
+[params]
+

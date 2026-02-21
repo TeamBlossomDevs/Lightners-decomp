@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://b730y3yfoacdj"
+path="res://.godot/imported/BIG SHOT.mid-b42e24736bd38fc8a91b8a0dd2975488.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/BIG SHOT/BIG SHOT.mid"
+dest_files=["res://.godot/imported/BIG SHOT.mid-b42e24736bd38fc8a91b8a0dd2975488.res"]
+
+[params]
+

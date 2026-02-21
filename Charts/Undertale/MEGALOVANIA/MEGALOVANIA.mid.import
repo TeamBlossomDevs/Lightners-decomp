@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://c0o7abii5rqu1"
+path="res://.godot/imported/MEGALOVANIA.mid-4287d375be1fd505fc33977a1c31ec21.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/MEGALOVANIA/MEGALOVANIA.mid"
+dest_files=["res://.godot/imported/MEGALOVANIA.mid-4287d375be1fd505fc33977a1c31ec21.res"]
+
+[params]
+

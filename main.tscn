@@ -1,0 +1,845 @@
+[gd_scene load_steps=67 format=3 uid="uid://bv7ecoas7mvec"]
+
+[ext_resource type="Script" uid="uid://b2tfhidu4g2qx" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bh2n42o47mpne" path="res://Sprites/Test BG.png" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://dlmro2lq4mca8" path="res://Sprites/Black.png" id="3_272bh"]
+[ext_resource type="AudioStream" uid="uid://1ys3x5f6ep65" path="res://Audio/Noise Beep.wav" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://47geq8y5p13o" path="res://Sprites/Stage Plus.png" id="4_lswn8"]
+[ext_resource type="Texture2D" uid="uid://dk3cftsapcynv" path="res://Sprites/Spotlights.png" id="5_4c57u"]
+[ext_resource type="Texture2D" uid="uid://dgmkkldwdss6i" path="res://Sprites/Target.png" id="6_7mycd"]
+[ext_resource type="FontFile" uid="uid://dvl318xc6jvon" path="res://Fonts/8bitoperator_jve.ttf" id="6_d13ii"]
+[ext_resource type="Texture2D" uid="uid://kmn1djimkmq6" path="res://Sprites/Circle.png" id="6_ryguw"]
+[ext_resource type="Texture2D" uid="uid://b8dd43ednqo3y" path="res://Sprites/Kris/KrisRockIdle.png" id="8_kq58d"]
+[ext_resource type="Texture2D" uid="uid://cfgw8orc4k61x" path="res://Sprites/Kris/KrisLeft/spr_kris_guitar_0.png" id="9_seu75"]
+[ext_resource type="Texture2D" uid="uid://d10vnxus1731m" path="res://Sprites/Kris/KrisLeft/spr_kris_guitar_1.png" id="10_htxhm"]
+[ext_resource type="Texture2D" uid="uid://cn7gr1lvnqdvm" path="res://Sprites/Kris/KrisPose/spr_kris_guitar_high_hold_0.png" id="11_jq2sk"]
+[ext_resource type="Texture2D" uid="uid://ds8cbbi1nx5fi" path="res://Sprites/Kris/KrisPose/spr_kris_guitar_high_hold_1.png" id="12_4k2k6"]
+[ext_resource type="Texture2D" uid="uid://criuds6qwmkor" path="res://Sprites/Kris/KrisRight/spr_kris_guitar_high_0.png" id="13_0rl1p"]
+[ext_resource type="Texture2D" uid="uid://do7qdbarp6agg" path="res://Sprites/Kris/KrisRight/spr_kris_guitar_high_1.png" id="14_ok6jj"]
+[ext_resource type="Texture2D" uid="uid://o740grpifgiv" path="res://Sprites/Susie/spr_susie_drumsticks/spr_susie_drumsticks_0.png" id="15_wnkbs"]
+[ext_resource type="Texture2D" uid="uid://co646uwyah2ee" path="res://Sprites/Susie/spr_susie_drumsticks/spr_susie_drumsticks_1.png" id="16_f6a44"]
+[ext_resource type="Texture2D" uid="uid://bnpl0cj0nfxuh" path="res://Sprites/Susie/spr_susie_drumsticks_2/spr_susie_drumsticks_2_0.png" id="17_0cbny"]
+[ext_resource type="Texture2D" uid="uid://beytrpo1kg8fw" path="res://Sprites/Susie/spr_susie_drumsticks_2/spr_susie_drumsticks_2_1.png" id="18_hrvbo"]
+[ext_resource type="Texture2D" uid="uid://cmb1ne2yy4jxl" path="res://Sprites/Susie/spr_susie_drum.png" id="19_uypp3"]
+[ext_resource type="Texture2D" uid="uid://b3h8yx87od24b" path="res://Sprites/Susie/spr_susie_drum_play/spr_susie_drum_play_0.png" id="20_blkrb"]
+[ext_resource type="Texture2D" uid="uid://d2rfdstfucwjk" path="res://Sprites/Fade.png" id="21_1u8w0"]
+[ext_resource type="Texture2D" uid="uid://2ogeula6yxyw" path="res://Sprites/Susie/spr_susie_drum_play/spr_susie_drum_play_1.png" id="21_abqjc"]
+[ext_resource type="Texture2D" uid="uid://botehjq7ecclf" path="res://Sprites/Particle.png" id="22_0odxb"]
+[ext_resource type="Texture2D" uid="uid://cwy67x46vk0mg" path="res://Sprites/Susie/spr_susie_drum_play_mid/spr_susie_drum_play_mid_0.png" id="22_6iyjs"]
+[ext_resource type="AudioStream" uid="uid://c5o8cc2ds7lsf" path="res://Audio/Great Hit.wav" id="23_0odxb"]
+[ext_resource type="Texture2D" uid="uid://cygmyh4dsvohu" path="res://Sprites/Susie/spr_susie_drum_play_mid/spr_susie_drum_play_mid_1.png" id="23_4w656"]
+[ext_resource type="Texture2D" uid="uid://s3ro33pb2ts" path="res://Sprites/TouchButton.png" id="23_d13ii"]
+[ext_resource type="Texture2D" uid="uid://cx0gyi32olbsy" path="res://Sprites/Susie/spr_susie_drum_ready.png" id="24_e71vb"]
+[ext_resource type="Texture2D" uid="uid://ih3o73ex2j57" path="res://Sprites/Susie/spr_susie_drum_play_right/spr_susie_drum_play_right_0.png" id="25_rnkwl"]
+[ext_resource type="AudioStream" uid="uid://dqnotq5raso33" path="res://Audio/WrongHit.mp3" id="26_a6jrf"]
+[ext_resource type="Texture2D" uid="uid://con8aqrgu0nrc" path="res://Sprites/ButtonPromps/Keyboard/Menu.png" id="26_kq58d"]
+[ext_resource type="Texture2D" uid="uid://d1ryuu7kvup4o" path="res://Sprites/Susie/spr_susie_drum_play_right/spr_susie_drum_play_right_1.png" id="26_vke2r"]
+[ext_resource type="Texture2D" uid="uid://076s7xibw1o1" path="res://Sprites/quitmessage/spr_quitmessage_0.png" id="31_0rl1p"]
+[ext_resource type="Texture2D" uid="uid://u2toacvn31fn" path="res://Sprites/Ralsei/spr_ralsei_rock_blush.png" id="31_uypp3"]
+[ext_resource type="Texture2D" uid="uid://bs0multi8ivtk" path="res://Sprites/Ralsei/spr_ralsei_rock_1.png" id="32_blkrb"]
+[ext_resource type="Texture2D" uid="uid://b85upnptcoq3w" path="res://Sprites/Ralsei/spr_ralsei_sing_clap/spr_ralsei_sing_clap_0.png" id="32_ntx8l"]
+[ext_resource type="Texture2D" uid="uid://bbgr0y273677n" path="res://Sprites/quitmessage/spr_quitmessage_1.png" id="32_ok6jj"]
+[ext_resource type="Texture2D" uid="uid://dhkw5gh3y2ojx" path="res://Sprites/Ralsei/spr_ralsei_rock_2.png" id="33_abqjc"]
+[ext_resource type="Texture2D" uid="uid://ymdxxb82uadk" path="res://Sprites/quitmessage/spr_quitmessage_2.png" id="33_facbu"]
+[ext_resource type="Texture2D" uid="uid://c26d62bc1xuas" path="res://Sprites/Ralsei/spr_ralsei_sing_clap/spr_ralsei_sing_clap_1.png" id="33_uatky"]
+[ext_resource type="Texture2D" uid="uid://1pg5tksxiqrg" path="res://Sprites/Ralsei/spr_ralsei_rock_3.png" id="34_6iyjs"]
+[ext_resource type="Texture2D" uid="uid://socobhrkpf1f" path="res://Sprites/quitmessage/spr_quitmessage_3.png" id="34_b1qrp"]
+[ext_resource type="Texture2D" uid="uid://cim3xyvqpbaiw" path="res://Sprites/Ralsei/spr_ralsei_sing_clap/spr_ralsei_sing_clap_2.png" id="34_rqtf5"]
+[ext_resource type="Texture2D" uid="uid://b1uobnmelsabi" path="res://Sprites/Ralsei/spr_ralsei_sing_cuss.png" id="35_1vm84"]
+[ext_resource type="Texture2D" uid="uid://hf5mmfe53xko" path="res://Sprites/quitmessage/spr_quitmessage_4.png" id="35_come4"]
+[ext_resource type="Texture2D" uid="uid://ckn0tsi1anxj6" path="res://Sprites/Ralsei/spr_ralsei_rock_pose.png" id="36_wu3dr"]
+[ext_resource type="Texture2D" uid="uid://dfnqc7il0t0pe" path="res://Sprites/Ralsei/spr_ralsei_sing_rude/spr_ralsei_sing_rude_0.png" id="40_cyx1q"]
+[ext_resource type="Texture2D" uid="uid://17uyc4tvfuqn" path="res://Sprites/Ralsei/spr_ralsei_sing_rude/spr_ralsei_sing_rude_1.png" id="41_0dhbp"]
+[ext_resource type="Texture2D" uid="uid://c3cct62vipih0" path="res://Sprites/Ralsei/spr_ralsei_rock_shock.png" id="42_jx0wj"]
+[ext_resource type="Texture2D" uid="uid://c43qpvitjhcwa" path="res://Sprites/Ralsei/spr_ralsei_sing_polite_closed/spr_ralsei_sing_polite_closed_0.png" id="43_kkkcx"]
+[ext_resource type="Texture2D" uid="uid://u8govfhk2h2n" path="res://Sprites/Ralsei/spr_ralsei_sing_polite_closed/spr_ralsei_sing_polite_closed_1.png" id="44_34ol3"]
+[ext_resource type="Texture2D" uid="uid://de0p6u1kwetv8" path="res://Sprites/Ralsei/spr_ralsei_sing_polite/spr_ralsei_sing_polite_0.png" id="45_c2n8d"]
+[ext_resource type="Texture2D" uid="uid://byyh3ypnmgmbi" path="res://Sprites/Ralsei/spr_ralsei_sing_polite/spr_ralsei_sing_polite_1.png" id="46_wy5fy"]
+[ext_resource type="Texture2D" uid="uid://c0wrvx2usjyad" path="res://Sprites/Ralsei/spr_ralsei_rock_surprise/spr_ralsei_rock_surprise_0.png" id="47_gx4rg"]
+[ext_resource type="Texture2D" uid="uid://pe5kik0wx8rp" path="res://Sprites/Ralsei/spr_ralsei_rock_surprise/spr_ralsei_rock_surprise_1.png" id="48_5dllo"]
+
+[sub_resource type="Theme" id="Theme_272bh"]
+default_font = ExtResource("6_d13ii")
+default_font_size = 20
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yaehf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_kq58d")
+}],
+"loop": false,
+"name": &"Idle",
+"speed": 9.33
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_seu75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_htxhm")
+}],
+"loop": false,
+"name": &"Left",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_jq2sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4k2k6")
+}],
+"loop": false,
+"name": &"Pose",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_0rl1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ok6jj")
+}],
+"loop": false,
+"name": &"Right",
+"speed": 0.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_getpj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_wnkbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_f6a44")
+}],
+"loop": true,
+"name": &"Drumsticks",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_0cbny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_hrvbo")
+}],
+"loop": true,
+"name": &"Drumsticks2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_uypp3")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_blkrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_abqjc")
+}],
+"loop": false,
+"name": &"Left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_6iyjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4w656")
+}],
+"loop": false,
+"name": &"Middle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_e71vb")
+}],
+"loop": true,
+"name": &"Ready",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_rnkwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vke2r")
+}],
+"loop": false,
+"name": &"Right",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_abqjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_blkrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vke2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_rnkwl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.33
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0odxb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_uypp3")
+}],
+"loop": true,
+"name": &"Blush",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_ntx8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_uatky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rqtf5")
+}],
+"loop": true,
+"name": &"Clap",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_1vm84")
+}],
+"loop": true,
+"name": &"Cuss",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_wu3dr")
+}],
+"loop": true,
+"name": &"Pose",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_blkrb")
+}],
+"loop": true,
+"name": &"Rock1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_abqjc")
+}],
+"loop": true,
+"name": &"Rock2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_6iyjs")
+}],
+"loop": true,
+"name": &"Rock3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_cyx1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_0dhbp")
+}],
+"loop": true,
+"name": &"Rude",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_jx0wj")
+}],
+"loop": true,
+"name": &"Shock",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_kkkcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_34ol3")
+}],
+"loop": true,
+"name": &"SingClosed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_c2n8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_wy5fy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_kkkcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_34ol3")
+}],
+"loop": true,
+"name": &"SingFull",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_c2n8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_wy5fy")
+}],
+"loop": true,
+"name": &"SingOpen",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("47_gx4rg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_5dllo")
+}],
+"loop": true,
+"name": &"Surprise",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_34ol3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_wy5fy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_kkkcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_c2n8d")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.67
+}]
+
+[sub_resource type="Theme" id="Theme_d13ii"]
+default_font = ExtResource("6_d13ii")
+
+[sub_resource type="Theme" id="Theme_ryguw"]
+default_font = ExtResource("6_d13ii")
+
+[sub_resource type="LabelSettings" id="LabelSettings_1u8w0"]
+font = ExtResource("6_d13ii")
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_0odxb"]
+font = ExtResource("6_d13ii")
+font_size = 50
+font_color = Color(1, 0, 0, 1)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h8e4i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_0rl1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ok6jj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_facbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_b1qrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_come4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_h2yge")
+
+[node name="TempBg" type="Sprite2D" parent="."]
+visible = false
+z_index = -1
+position = Vector2(480, 270.5)
+scale = Vector2(0.375, 0.374306)
+texture = ExtResource("1_ig7tw")
+
+[node name="Black2" type="Sprite2D" parent="TempBg"]
+position = Vector2(-691.945, 571.111)
+scale = Vector2(22.5, 2.07407)
+texture = ExtResource("3_272bh")
+
+[node name="Black3" type="Sprite2D" parent="TempBg"]
+position = Vector2(684.445, 573.333)
+scale = Vector2(22.5, 2.07407)
+texture = ExtResource("3_272bh")
+
+[node name="Stage" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 264)
+scale = Vector2(2, 2)
+texture = ExtResource("4_lswn8")
+
+[node name="Spotlights" type="Sprite2D" parent="Stage"]
+texture = ExtResource("5_4c57u")
+
+[node name="ScoreNumber" type="Label" parent="Stage"]
+modulate = Color(0, 0.705882, 0.713726, 1)
+offset_left = -225.0
+offset_top = 101.0
+offset_right = -109.0
+offset_bottom = 153.0
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+text = "1"
+horizontal_alignment = 2
+
+[node name="ScoreText" type="Label" parent="Stage"]
+modulate = Color(0, 0.705882, 0.713726, 1)
+offset_left = -106.0
+offset_top = 107.0
+offset_right = -63.0
+offset_bottom = 122.0
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 12
+text = "Score"
+
+[node name="MaxComboNumber" type="Label" parent="Stage"]
+modulate = Color(0.290196, 0.843137, 0.988235, 1)
+offset_left = 111.633
+offset_top = 100.803
+offset_right = 227.633
+offset_bottom = 152.803
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+text = "100"
+
+[node name="MaxComboText" type="Label" parent="Stage"]
+modulate = Color(0.290196, 0.843137, 0.988235, 1)
+offset_left = 62.0
+offset_top = 107.0
+offset_right = 112.0
+offset_bottom = 134.0
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 12
+text = "Max Combo"
+
+[node name="ComboNumber" type="Label" parent="Stage"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -185.5
+offset_top = -192.0
+offset_right = -85.5
+offset_bottom = -92.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(50, 50)
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 41
+text = "00"
+
+[node name="ComboText" type="Label" parent="Stage"]
+offset_left = -17.0
+offset_top = -29.0
+offset_right = 110.0
+offset_bottom = 17.0
+theme = SubResource("Theme_272bh")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 16
+text = "COMBO"
+
+[node name="CircleLightC" type="Sprite2D" parent="Stage"]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(0, 55)
+scale = Vector2(0.225974, 0.0380129)
+texture = ExtResource("6_ryguw")
+
+[node name="CircleLightL" type="Sprite2D" parent="Stage"]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(-85, 55)
+scale = Vector2(0.173886, 0.0380129)
+texture = ExtResource("6_ryguw")
+
+[node name="CircleLightR" type="Sprite2D" parent="Stage"]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(85, 55)
+scale = Vector2(0.173886, 0.0380129)
+texture = ExtResource("6_ryguw")
+
+[node name="Kris" type="AnimatedSprite2D" parent="Stage"]
+position = Vector2(0, 60)
+sprite_frames = SubResource("SpriteFrames_yaehf")
+animation = &"Idle"
+autoplay = "Left"
+
+[node name="KrisBig" type="AnimatedSprite2D" parent="Stage"]
+position = Vector2(-178, -0.2)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_yaehf")
+animation = &"Left"
+autoplay = "Left"
+
+[node name="Susie" type="AnimatedSprite2D" parent="Stage"]
+position = Vector2(-94, 52)
+sprite_frames = SubResource("SpriteFrames_getpj")
+animation = &"Idle"
+autoplay = "default"
+
+[node name="Ralsei" type="AnimatedSprite2D" parent="Stage"]
+position = Vector2(94, 58)
+sprite_frames = SubResource("SpriteFrames_0odxb")
+animation = &"Clap"
+autoplay = "default"
+
+[node name="RalseiBig" type="AnimatedSprite2D" parent="Stage"]
+position = Vector2(180, -4)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_0odxb")
+autoplay = "default"
+
+[node name="Target" type="Node2D" parent="."]
+position = Vector2(480, 270)
+
+[node name="Black" type="Sprite2D" parent="Target"]
+modulate = Color(1, 1, 1, 0.862745)
+z_index = -1
+position = Vector2(0, -74)
+scale = Vector2(8.6, 8.4)
+texture = ExtResource("3_272bh")
+
+[node name="TargetL" type="Sprite2D" parent="Target"]
+position = Vector2(-20, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("6_7mycd")
+
+[node name="TargetFlash" type="Sprite2D" parent="Target/TargetL"]
+modulate = Color(1, 1, 1, 0.196078)
+texture = ExtResource("21_1u8w0")
+offset = Vector2(0, -50)
+
+[node name="TargetFlashBottom" type="Sprite2D" parent="Target/TargetL/TargetFlash"]
+scale = Vector2(1, -0.035)
+texture = ExtResource("21_1u8w0")
+offset = Vector2(0, -50)
+
+[node name="HitParticles" type="CPUParticles2D" parent="Target/TargetL"]
+emitting = false
+amount = 32
+texture = ExtResource("22_0odxb")
+lifetime = 0.25
+direction = Vector2(0, -1)
+spread = 35.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 150.0
+initial_velocity_max = 200.0
+
+[node name="TargetR" type="Sprite2D" parent="Target"]
+position = Vector2(20, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("6_7mycd")
+
+[node name="TargetFlash" type="Sprite2D" parent="Target/TargetR"]
+modulate = Color(1, 1, 1, 0.196078)
+texture = ExtResource("21_1u8w0")
+offset = Vector2(0, -50)
+
+[node name="TargetFlashBottom" type="Sprite2D" parent="Target/TargetR/TargetFlash"]
+scale = Vector2(1, -0.035)
+texture = ExtResource("21_1u8w0")
+offset = Vector2(0, -50)
+
+[node name="HitParticles" type="CPUParticles2D" parent="Target/TargetR"]
+emitting = false
+amount = 32
+texture = ExtResource("22_0odxb")
+lifetime = 0.25
+direction = Vector2(0, -1)
+spread = 35.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 150.0
+initial_velocity_max = 200.0
+
+[node name="NoteScoreTextL" type="Label" parent="Target"]
+offset_left = -88.0
+offset_top = -12.0
+offset_right = -46.0
+offset_bottom = 12.0
+theme = SubResource("Theme_d13ii")
+theme_override_font_sizes/font_size = 24
+text = "+100"
+
+[node name="NoteScoreTextR" type="Label" parent="Target"]
+offset_left = 46.0
+offset_top = -12.0
+offset_right = 88.0
+offset_bottom = 12.0
+theme = SubResource("Theme_d13ii")
+theme_override_font_sizes/font_size = 24
+text = "+100"
+
+[node name="ScoreScreenBlack" type="Sprite2D" parent="Target"]
+visible = false
+z_index = -1
+position = Vector2(0, -74)
+scale = Vector2(34.4, 8.4)
+texture = ExtResource("3_272bh")
+
+[node name="ScoreScreenText" type="Label" parent="Target"]
+offset_left = -164.0
+offset_top = -194.0
+offset_right = 166.0
+offset_bottom = 46.0
+theme = SubResource("Theme_d13ii")
+theme_override_font_sizes/font_size = 32
+text = "Notes Hit: 90
+Notes Missed: 10
+Percentage Hit: 100%
+Average Accuracy: 99.99%"
+horizontal_alignment = 1
+vertical_alignment = 1
+visible_characters = 0
+visible_characters_behavior = 1
+visible_ratio = 0.0
+
+[node name="ReturnToMenuPrompt" type="Sprite2D" parent="Target"]
+position = Vector2(-78, 258)
+texture = ExtResource("26_kq58d")
+
+[node name="Label" type="Label" parent="Target/ReturnToMenuPrompt"]
+offset_left = 22.0
+offset_top = -18.0
+offset_right = 176.0
+offset_bottom = 14.0
+theme_override_fonts/font = ExtResource("6_d13ii")
+theme_override_font_sizes/font_size = 32
+text = "Back To Café"
+
+[node name="Progress" type="TextureProgressBar" parent="Target/ReturnToMenuPrompt"]
+z_index = -1
+anchors_preset = -1
+anchor_bottom = 0.056
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 14.992
+max_value = 1.5
+step = 0.01
+fill_mode = 5
+nine_patch_stretch = true
+texture_progress = ExtResource("6_ryguw")
+
+[node name="MidiPlayer" type="MidiPlayer" parent="."]
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+bus = &"Music"
+
+[node name="Beep" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_1bvp3")
+volume_db = -16.0
+bus = &"SFX"
+
+[node name="GreatHitAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_0odxb")
+volume_db = -6.0
+bus = &"SFX"
+
+[node name="WrongHitAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_a6jrf")
+bus = &"SFX"
+
+[node name="Notes" type="Node" parent="."]
+
+[node name="KrisNotes" type="Node" parent="Notes"]
+
+[node name="SusieNotes" type="Node" parent="Notes"]
+
+[node name="RalseiNotes" type="Node" parent="Notes"]
+
+[node name="KrisAnimNotes" type="Node" parent="Notes"]
+
+[node name="SusieAnimNotes" type="Node" parent="Notes"]
+
+[node name="RalseiAnimNotes" type="Node" parent="Notes"]
+
+[node name="FPSDisplay" type="Label" parent="."]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+theme = SubResource("Theme_ryguw")
+text = "144"
+
+[node name="DebugDisplay" type="Label" parent="."]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+theme = SubResource("Theme_ryguw")
+
+[node name="TouchControls" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="L" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(0, 390)
+scale = Vector2(3, 3)
+texture_normal = ExtResource("23_d13ii")
+texture_pressed = ExtResource("23_d13ii")
+
+[node name="Label" type="Label" parent="TouchControls/L"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "L"
+label_settings = SubResource("LabelSettings_1u8w0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="R" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(810, 390)
+scale = Vector2(3, 3)
+texture_normal = ExtResource("23_d13ii")
+texture_pressed = ExtResource("23_d13ii")
+
+[node name="Label" type="Label" parent="TouchControls/R"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "R"
+label_settings = SubResource("LabelSettings_1u8w0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="X" type="TouchScreenButton" parent="TouchControls"]
+position = Vector2(860, 0)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("23_d13ii")
+texture_pressed = ExtResource("23_d13ii")
+
+[node name="Label" type="Label" parent="TouchControls/X"]
+offset_right = 50.0
+offset_bottom = 50.0
+text = "X"
+label_settings = SubResource("LabelSettings_0odxb")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LagWarning" type="Label" parent="."]
+visible = false
+offset_left = 2.0
+offset_top = -2.0
+offset_right = 434.0
+offset_bottom = 130.0
+theme_override_constants/line_spacing = -1
+theme_override_fonts/font = ExtResource("6_d13ii")
+text = "WARNING: Large amounts of lag detected. This can in some cases cause the game to break, with notes spawning inside the box
+One possible fix is turning on Graphics Acceleration in your browser settings, if it's not already on
+If it's already on, your device may not be performant enough to run this game, sorry :(
+Once you exit this map, this message won't show again
+until the game is fully reloaded"
+autowrap_mode = 2
+
+[node name="MapFailedToLoadText" type="Label" parent="."]
+visible = false
+offset_right = 956.0
+offset_bottom = 92.0
+theme_override_constants/line_spacing = -1
+theme_override_fonts/font = ExtResource("6_d13ii")
+text = "Error: map failed to load :(
+The most common reason for this is using Firefox.
+The weird way it loads Godot itch.io games causes it to break often, not much I can do about that unfortunately. So try a Chrome/Chromium based browser instead if you're using Firefox.
+It can also happen on mobile,
+as it's just generally more buggy"
+autowrap_mode = 2
+
+[node name="LatenencyOffsetMapText" type="Label" parent="."]
+visible = false
+offset_top = -8.0
+offset_right = 960.0
+offset_bottom = 72.0
+theme_override_fonts/font = ExtResource("6_d13ii")
+theme_override_font_sizes/font_size = 42
+text = "Use Up and Down to Change Latency Offset: -4"
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="LatenencyOffsetMapText"]
+layout_mode = 0
+offset_top = 42.0
+offset_right = 960.0
+offset_bottom = 82.0
+theme_override_fonts/font = ExtResource("6_d13ii")
+text = "Increase if you're hitting too early
+Decrease if you're hitting too late"
+horizontal_alignment = 1
+
+[node name="QuitMessage" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(88, 12)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_h8e4i")
+frame = 2
+frame_progress = 0.397498
+
+[node name="MapNameText" type="Label" parent="."]
+offset_top = 8.0
+offset_right = 960.0
+offset_bottom = 50.0
+theme_override_fonts/font = ExtResource("6_d13ii")
+theme_override_font_sizes/font_size = 32
+text = "Rude Buster this is some placeholder test text"
+horizontal_alignment = 1
+
+[node name="MapIDText" type="Label" parent="."]
+offset_top = 40.0
+offset_right = 960.0
+offset_bottom = 58.0
+theme_override_fonts/font = ExtResource("6_d13ii")
+text = "Map ID: 2323423423424234"
+horizontal_alignment = 1
+visible_characters = 0
+visible_ratio = 0.0
+
+[connection signal="finished" from="Music" to="." method="__M9IN"]

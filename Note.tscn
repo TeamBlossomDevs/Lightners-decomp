@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://befm0gkyaul3h"]
+
+[ext_resource type="Script" uid="uid://dlxxjmqg3q8pj" path="res://Note.gd" id="1_pmjlu"]
+[ext_resource type="Texture2D" uid="uid://dywms5iyd45u5" path="res://Sprites/Note.png" id="2_6st8q"]
+[ext_resource type="FontFile" uid="uid://dvl318xc6jvon" path="res://Fonts/8bitoperator_jve.ttf" id="3_6st8q"]
+
+[node name="Note" type="Node2D"]
+script = ExtResource("1_pmjlu")
+
+[node name="NoteSprite" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_6st8q")
+
+[node name="Label" type="Label" parent="NoteSprite"]
+visible = false
+offset_left = 9.0
+offset_top = -7.0
+offset_right = 105.0
+offset_bottom = 8.0
+theme_override_fonts/font = ExtResource("3_6st8q")
+theme_override_font_sizes/font_size = 12
+text = "SusieAnimDrumsticks2"

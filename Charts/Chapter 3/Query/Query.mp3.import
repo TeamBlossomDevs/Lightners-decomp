@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b0v2c7g4ycx5x"
+path="res://.godot/imported/Query.mp3-eb098c0e49c6a3af79aa738b1071861a.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Query/Query.mp3"
+dest_files=["res://.godot/imported/Query.mp3-eb098c0e49c6a3af79aa738b1071861a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

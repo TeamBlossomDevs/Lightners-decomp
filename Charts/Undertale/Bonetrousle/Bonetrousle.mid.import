@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bb3c8agn4ot83"
+path="res://.godot/imported/Bonetrousle.mid-5002e7269a9d7f1f38bbe6562b15efcc.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Bonetrousle/Bonetrousle.mid"
+dest_files=["res://.godot/imported/Bonetrousle.mid-5002e7269a9d7f1f38bbe6562b15efcc.res"]
+
+[params]
+

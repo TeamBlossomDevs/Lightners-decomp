@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://sihh0icgbl25"
+path="res://.godot/imported/Rude Buster 8 Bit.mp3-b861c00cdc8968fb09e48e27e9015177.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Rude Buster/Rude Buster 8 Bit.mp3"
+dest_files=["res://.godot/imported/Rude Buster 8 Bit.mp3-b861c00cdc8968fb09e48e27e9015177.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

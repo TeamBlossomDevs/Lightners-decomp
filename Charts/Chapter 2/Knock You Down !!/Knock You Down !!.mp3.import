@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://fiodgkjaurv2"
+path="res://.godot/imported/Knock You Down !!.mp3-8b4225c7f8c2803da9cb18b422f88bac.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Knock You Down !!/Knock You Down !!.mp3"
+dest_files=["res://.godot/imported/Knock You Down !!.mp3-8b4225c7f8c2803da9cb18b422f88bac.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bmr52dsgee4p7"
+path="res://.godot/imported/Chaos King.mid-7272fe402539f3aff972552e08eac0af.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Chaos King/Chaos King.mid"
+dest_files=["res://.godot/imported/Chaos King.mid-7272fe402539f3aff972552e08eac0af.res"]
+
+[params]
+

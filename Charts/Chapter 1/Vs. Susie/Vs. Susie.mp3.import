@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bfchqrsl6q7je"
+path="res://.godot/imported/Vs. Susie.mp3-384f46148ba94230b800723564769940.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Vs. Susie/Vs. Susie.mp3"
+dest_files=["res://.godot/imported/Vs. Susie.mp3-384f46148ba94230b800723564769940.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dxi8cxlhkp3nn"
+path="res://.godot/imported/BURNING EYES.mid-3d541b4fc1c05e5dc29dd54acc951934.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/BURNING EYES/BURNING EYES.mid"
+dest_files=["res://.godot/imported/BURNING EYES.mid-3d541b4fc1c05e5dc29dd54acc951934.res"]
+
+[params]
+

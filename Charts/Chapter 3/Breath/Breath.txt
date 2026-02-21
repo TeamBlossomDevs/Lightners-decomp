@@ -1,0 +1,5 @@
+difficulty: Easy
+description: (ok look I just wanted to say the whole OST was in, so I kinda had to do this one lmao)
+Composer: Toby Fox
+volume: 0
+order: 329

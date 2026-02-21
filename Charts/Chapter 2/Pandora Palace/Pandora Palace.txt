@@ -1,0 +1,5 @@
+difficulty: Hard
+description: Queen's Mansion area theme
+Composer: Toby Fox
+volume: 0
+order: 226

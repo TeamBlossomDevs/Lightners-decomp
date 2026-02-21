@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://ctbyeyr0qpc5d"
+path="res://.godot/imported/Smart Race.mid-eaf3e5136ab99232f0a5164de0e72a93.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Smart Race/Smart Race.mid"
+dest_files=["res://.godot/imported/Smart Race.mid-eaf3e5136ab99232f0a5164de0e72a93.res"]
+
+[params]
+

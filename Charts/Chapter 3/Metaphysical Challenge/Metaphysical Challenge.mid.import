@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://d3hxadrhrd4jv"
+path="res://.godot/imported/Metaphysical Challenge.mid-15923538d24208e453c5ae70fab51f1b.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Metaphysical Challenge/Metaphysical Challenge.mid"
+dest_files=["res://.godot/imported/Metaphysical Challenge.mid-15923538d24208e453c5ae70fab51f1b.res"]
+
+[params]
+

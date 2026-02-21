@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwpurk1hylcdl"
+path="res://.godot/imported/Raft Ride.mp3-74f3f8f469169c65181744eab4acc0c0.mp3str"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Raft Ride/Raft Ride.mp3"
+dest_files=["res://.godot/imported/Raft Ride.mp3-74f3f8f469169c65181744eab4acc0c0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

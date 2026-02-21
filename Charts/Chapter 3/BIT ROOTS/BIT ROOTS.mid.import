@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://5nkhsysatm5j"
+path="res://.godot/imported/BIT ROOTS.mid-141af2a2d4df61b2f07337fe2bafbae3.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/BIT ROOTS/BIT ROOTS.mid"
+dest_files=["res://.godot/imported/BIT ROOTS.mid-141af2a2d4df61b2f07337fe2bafbae3.res"]
+
+[params]
+

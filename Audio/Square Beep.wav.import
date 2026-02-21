@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://coheu57oj6xic"
+path="res://.godot/imported/Square Beep.wav-835d96f0fe5d8789cfec52d56211ed09.sample"
+
+[deps]
+
+source_file="res://Audio/Square Beep.wav"
+dest_files=["res://.godot/imported/Square Beep.wav-835d96f0fe5d8789cfec52d56211ed09.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

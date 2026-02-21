@@ -1,0 +1,5 @@
+difficulty: Easy
+description: The legend of DELTA RUNE
+Composer: Toby Fox
+volume: 0
+order: 108

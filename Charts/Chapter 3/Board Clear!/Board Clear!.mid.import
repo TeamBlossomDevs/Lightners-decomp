@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://77myw4k27upg"
+path="res://.godot/imported/Board Clear!.mid-af54d2b6936916aec23629631002c6df.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Board Clear!/Board Clear!.mid"
+dest_files=["res://.godot/imported/Board Clear!.mid-af54d2b6936916aec23629631002c6df.res"]
+
+[params]
+

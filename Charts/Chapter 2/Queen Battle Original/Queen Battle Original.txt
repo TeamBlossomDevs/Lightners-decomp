@@ -1,0 +1,7 @@
+difficulty: Impossible
+description: Queen's unused battle theme
+Composer: Toby Fox
+volume: 0
+alt volume: 3
+order: 297
+inheritScoreFromID: 7d753889d6c6af450b13dbbd932eadf4

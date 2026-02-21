@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cdfsn3amg2kyo"
+path="res://.godot/imported/Vs. Susie.mid-d48888965ef864d68440e9fe4da8d25c.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 1/Vs. Susie/Vs. Susie.mid"
+dest_files=["res://.godot/imported/Vs. Susie.mid-d48888965ef864d68440e9fe4da8d25c.res"]
+
+[params]
+

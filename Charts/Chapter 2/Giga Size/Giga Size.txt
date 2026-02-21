@@ -1,0 +1,5 @@
+difficulty: Impossible
+description: Giga Queen's Theme
+Composer: Toby Fox
+volume: 0
+order: 233

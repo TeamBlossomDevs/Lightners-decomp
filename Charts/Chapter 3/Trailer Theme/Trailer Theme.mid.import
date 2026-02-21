@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cypifdi6mbqdr"
+path="res://.godot/imported/Trailer Theme.mid-15b264e32f19e5884870efa56c4a780a.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Trailer Theme/Trailer Theme.mid"
+dest_files=["res://.godot/imported/Trailer Theme.mid-15b264e32f19e5884870efa56c4a780a.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://bynh25pc3y1fq"
+path="res://.godot/imported/Breath.mid-4ce0cc94cab3cad13e5bf44ef67d322e.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Breath/Breath.mid"
+dest_files=["res://.godot/imported/Breath.mid-4ce0cc94cab3cad13e5bf44ef67d322e.res"]
+
+[params]
+

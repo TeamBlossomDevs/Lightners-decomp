@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://1gbdfbn3ef7x"
+path="res://.godot/imported/Lost Girl.mid-b5f5fc9c72b646e73c6433c41e5e6d53.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 2/Lost Girl/Lost Girl.mid"
+dest_files=["res://.godot/imported/Lost Girl.mid-b5f5fc9c72b646e73c6433c41e5e6d53.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://dja75u2qb2ciy"
+path="res://.godot/imported/My Funky Town.mid-b4c2621214cf994ee1977430e8a41844.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 4/My Funky Town/My Funky Town.mid"
+dest_files=["res://.godot/imported/My Funky Town.mid-b4c2621214cf994ee1977430e8a41844.res"]
+
+[params]
+

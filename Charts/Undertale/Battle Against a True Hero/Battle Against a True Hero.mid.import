@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cxia38lljrner"
+path="res://.godot/imported/Battle Against a True Hero.mid-25ec8d199952ed3d2ff82a707f67991c.res"
+
+[deps]
+
+source_file="res://Charts/Undertale/Battle Against a True Hero/Battle Against a True Hero.mid"
+dest_files=["res://.godot/imported/Battle Against a True Hero.mid-25ec8d199952ed3d2ff82a707f67991c.res"]
+
+[params]
+

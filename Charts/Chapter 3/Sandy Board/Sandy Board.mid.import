@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cpk02p17g75n7"
+path="res://.godot/imported/Sandy Board.mid-d423b80da3bef62e28b42ccc29bb1b49.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/Sandy Board/Sandy Board.mid"
+dest_files=["res://.godot/imported/Sandy Board.mid-d423b80da3bef62e28b42ccc29bb1b49.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://cdeecrora32kv"
+path="res://.godot/imported/KING OF ROLYPOLY.mid-c915efb335753e8664eab66f85d5d9eb.res"
+
+[deps]
+
+source_file="res://Charts/Chapter 3/KING OF ROLYPOLY/KING OF ROLYPOLY.mid"
+dest_files=["res://.godot/imported/KING OF ROLYPOLY.mid-c915efb335753e8664eab66f85d5d9eb.res"]
+
+[params]
+
